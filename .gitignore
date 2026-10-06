@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+*.class
+*.mph
+*.mphbin
+*.mph.lock
+*.recovery
+*.npz
+*.npy
+*.csv
+*.png
+*.pdf
+*.aux
+*.log
+*.out
+*.tmp
+*.prefs
+results/
+output/
+tmp/
+# The two frozen kernels under runs/.../sources/ are tracked source files.

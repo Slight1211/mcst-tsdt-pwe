@@ -1,0 +1,93 @@
+{
+  "release": "2026-10-06",
+  "scope": "source-package checks, not new manuscript evidence",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "threadpoolctl": "3.7.0",
+    "psutil": "7.2.2"
+  },
+  "tests": [
+    {
+      "status": "PASS",
+      "python_sources_parsed": 85,
+      "kernel": "current",
+      "basis_order_for_algebra_check": 2,
+      "algebra": {
+        "full_inverse_equivalence": 1.3432966843745291e-15,
+        "direct_generalized_equivalence": 3.39604321786402e-16,
+        "homogeneous_limit": 3.4004383089230086e-17,
+        "channels": 2
+      },
+      "nodal_fixed_area_absolute_error": 5.551115123125783e-17,
+      "full_scans": "NOT_RUN",
+      "optimization": "NOT_RUN",
+      "COMSOL": "NOT_RUN"
+    },
+    {
+      "status": "PASS",
+      "python_sources_parsed": 85,
+      "kernel": "frozen",
+      "basis_order_for_algebra_check": 2,
+      "algebra": {
+        "full_inverse_equivalence": 1.3432966843745291e-15,
+        "direct_generalized_equivalence": 3.39604321786402e-16,
+        "homogeneous_limit": 3.4004383089230086e-17,
+        "channels": 2
+      },
+      "nodal_fixed_area_absolute_error": 5.551115123125783e-17,
+      "full_scans": "NOT_RUN",
+      "optimization": "NOT_RUN",
+      "COMSOL": "NOT_RUN"
+    },
+    {
+      "status": "PASS_SMALL_BASIS_EXAMPLE",
+      "N": 2,
+      "wavevector": "X",
+      "a_um": 500,
+      "h_um": 20,
+      "radius_over_a": 0.3,
+      "ell_epoxy_um": 1,
+      "ell_steel_um": 0,
+      "results": [
+        {
+          "theory": "FSDT",
+          "frequency_MHz": [
+            0.06603851163238093,
+            0.08254075968513225,
+            0.30143911428361664,
+            0.4179877734529173,
+            0.5543177404641709,
+            0.5983249830686141
+          ],
+          "max_algebraic_residual": 8.73834280416893e-11
+        },
+        {
+          "theory": "TSDT",
+          "frequency_MHz": [
+            0.06603929349634277,
+            0.08254726225940309,
+            0.30147102226948735,
+            0.41804279221053525,
+            0.5543885931317301,
+            0.5984303976292389
+          ],
+          "max_algebraic_residual": 6.174944825115534e-11
+        }
+      ],
+      "convergence": "NOT_TESTED"
+    }
+  ],
+  "production_PWE_scans": "NOT_RUN",
+  "production_optimization": "NOT_RUN",
+  "COMSOL": "NOT_RUN",
+  "saved_data_audits": "NOT_RUN",
+  "portability_checks": {
+    "PWE_only_imports_without_COMSOL": "PASS",
+    "missing_COMSOL_configuration": "PASS",
+    "adapted_experiments_missing_data_fail_early": "PASS",
+    "scientific_functions_AST_unchanged": 12
+  }
+}

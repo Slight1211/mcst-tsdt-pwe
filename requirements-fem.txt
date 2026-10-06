@@ -1,0 +1,5 @@
+# Optional Python FEM helper modules; COMSOL is separate commercial software.
+-r requirements.txt
+scikit-fem==12.0.2
+gmsh==4.15.2
+meshio==5.3.5

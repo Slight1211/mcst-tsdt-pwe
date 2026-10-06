@@ -1,0 +1,15 @@
+{
+  "source": "manuscript/two_phase_validation_zh.tex",
+  "a_m": 0.000025,
+  "h_m": 0.000002,
+  "radius_over_a": 0.30,
+  "ell_matrix_m": [0.0, 0.000001],
+  "ell_steel_m": 0.0,
+  "length_calibration": "UNAVAILABLE; numerical parameter",
+  "N": 27,
+  "k_a": [3.141592653589793, 0.0],
+  "theory": "TSDT",
+  "surface": false,
+  "fluid": false,
+  "reference_policy": "classical against classical 3D; MCST against MCST 3D"
+}

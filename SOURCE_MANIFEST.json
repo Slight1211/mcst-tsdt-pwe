@@ -1,0 +1,742 @@
+{
+  "release": "2026-10-06",
+  "scope": "source-only public code release",
+  "algorithm_core": "identical byte copies",
+  "hash_algorithm": "SHA256",
+  "static_security_scan": {
+    "source_and_configuration_files_reviewed": 94,
+    "confirmed_secret_or_personal_absolute_path_matches": 0,
+    "scope": "static packaging review, not a guarantee of copyright or all vulnerabilities"
+  },
+  "manifest_self_hash": "not included (avoid recursive self-hash)",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 264,
+      "original_sha256": null,
+      "release_sha256": "a76eb0a6d12be5ea5bb79cce7e169f3651b0f468d24b0644feabe6cd5018699b",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "checks/smoke_check.py",
+      "bytes": 1643,
+      "original_sha256": null,
+      "release_sha256": "d4756f098078818659dfc7d1be3d1ca9aa52dfc6c3c3790977c9f8b256352241",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "comsol/BuildTwoPhaseValidation.java",
+      "bytes": 38822,
+      "original_sha256": "35f4468c7dd3bc016152d5f6c62c46df5941b3b6de1b4435114b16cecc461d72",
+      "release_sha256": "5719982f5aeea3b11db3e98e546bd873f0310b36889b28a6467cb1f930a2bf1d",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "examples/circular_point.py",
+      "bytes": 2209,
+      "original_sha256": null,
+      "release_sha256": "5d6734e4521af20732fcbbd323363137c03f7a2c382efc8b6c867dc3bbb77853",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "PUBLIC_RELEASE_CHECKS.json",
+      "bytes": 2647,
+      "original_sha256": null,
+      "release_sha256": "38411400d393ad459100d1c6e2b425568f3ebdc364ba49fff949741eaee7a269",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "PUBLIC_RELEASE_NOTES.md",
+      "bytes": 2669,
+      "original_sha256": null,
+      "release_sha256": "b9d3e6489c395d65e31692a78990b9b6f35256199eb73bc286e41cc46c335fdf",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8138,
+      "original_sha256": null,
+      "release_sha256": "a5ef877fa385fbb2deb5b54555f75277545d7e7f8e62c04efd565f5aab0f7556",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "requirements-fem.txt",
+      "bytes": 144,
+      "original_sha256": null,
+      "release_sha256": "a9de0919833a5afc4fa9daae3e8d8d89974f8be5893b277125542433cfe2beef",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 151,
+      "original_sha256": null,
+      "release_sha256": "3d24dba6b89032b60b349b733d1ef9db10970a45403d2c445300a05a4199fc4a",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "research/msse_20260919/python/msse_core.py",
+      "bytes": 1990,
+      "original_sha256": "338e41d56d089b13288018eecbd87b8dcaaecf0994682bd106d14d9e1c345356",
+      "release_sha256": "338e41d56d089b13288018eecbd87b8dcaaecf0994682bd106d14d9e1c345356",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/msse_20260919/python/two_phase.py",
+      "bytes": 4951,
+      "original_sha256": "41ac4d0b0e0549c4e49cdfc38d8bc960f58df2dfa966eae4e0dc6018ef66cf51",
+      "release_sha256": "41ac4d0b0e0549c4e49cdfc38d8bc960f58df2dfa966eae4e0dc6018ef66cf51",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/COMSOL_PORTABILITY.md",
+      "bytes": 1865,
+      "original_sha256": null,
+      "release_sha256": "a7adfbe6025f8c1f9cfbc661f16b16353875188f96f8777660ee51e31a7b642e",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/comsol_runtime.py",
+      "bytes": 1654,
+      "original_sha256": null,
+      "release_sha256": "675616da8d3902645a194bdba87de2d729988d7451e09d02e4059f36d39b241a",
+      "status": "added_for_public_release"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/configs/original_manuscript_dry.json",
+      "bytes": 419,
+      "original_sha256": "1e95afd0d01cd75b298b5d4e855d3d05d4d99c22189206de4d57ae49aa287bab",
+      "release_sha256": "1e95afd0d01cd75b298b5d4e855d3d05d4d99c22189206de4d57ae49aa287bab",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/ExportSection41Meshes.java",
+      "bytes": 3793,
+      "original_sha256": "7aa6aff4ad7d585ad4fa535bc54b0102a8a10c59d5c3a229a8045195cc4380b9",
+      "release_sha256": "b56bb70d358151df24b98f7fde14d85aa0eb674c1360d07a1dd35d069202a928",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/endpoint_a40_joint_v2/code/SolveA40JointPath.java",
+      "bytes": 3968,
+      "original_sha256": "01dec117b61e6a58237df7fd2721223d51e4d1d1ba700310f5ca234ec82eacc2",
+      "release_sha256": "9853ddf9122ab5f1e741a6a0ba297df6812b548f4ff22176f3e9848baf8e49a5",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/pwe_3d_mac_20261004/compute_v2.py",
+      "bytes": 14510,
+      "original_sha256": "ea1ddfedea8b8fba9f8cec3ba69dee35f33752655f60a49a6351eb9247ed79cb",
+      "release_sha256": "82f3d04ce467dba96029932c431a463de12972dfffb588b6304eaa4e11bc9561",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/pwe_3d_mac_20261004/protocol.md",
+      "bytes": 4534,
+      "original_sha256": "c5bfebb417f565abdb0d16085177aabf7c4e3b6998879e20628a871974d4ecec",
+      "release_sha256": "21408ffa9fb3f9175994f662212571d7a19dda38866570b1627804203cde4c7d",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/audit_v2.py",
+      "bytes": 993,
+      "original_sha256": "6fba6e3fe896b0205e5873753f4087db3e2611c78975fc351aad0d7f8e3e04eb",
+      "release_sha256": "50ae52733f45fd935247ca73c9907c498aa1dcb5ad4a761d11fd08d5d995883b",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/audit.py",
+      "bytes": 4147,
+      "original_sha256": "b68bcc3cece52f1718df599112be455bafede5cab6b3dad23135d754c8a32255",
+      "release_sha256": "9a89091f344c10e03fd51771f4a88e3addd11883d8a3e2b7bcd02bbb62692f72",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/protocol.md",
+      "bytes": 5085,
+      "original_sha256": "a4e6d929b0e22d72a93221fb1d3c9ffc6e98f58f424b942042b0ea90c9746ec7",
+      "release_sha256": "c83bd7dab58266e4a90f51d1da88ad7e911a118ff1292b7d40388c709b36b198",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/recompute.py",
+      "bytes": 10380,
+      "original_sha256": "ed488d871d80cce9f6f4725f859ec1ff1adf1bf44e2f3fede3936fd7f9b49cdc",
+      "release_sha256": "492feda5055eda213dd3a6f57e019fbffe551d90b2bf0c9d65a59a349be25f10",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/verify_saved.py",
+      "bytes": 1102,
+      "original_sha256": "78edf877151a68c3d6c899c5b65ccc31b73246a50e7ced13c2be073c3ae98411",
+      "release_sha256": "fbea3e61bd60c8ac9d789c1b9964e3057e8ab5310431813c882f33e57538a991",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_local_prediction_20261003/gen_fig_second_order.py",
+      "bytes": 2698,
+      "original_sha256": "fe1ad8f5d45b370ad37eca199277585dee8d166e4b01b4b83f4540384cedaaa6",
+      "release_sha256": "e26853087c35ac303ffcb4e7c9280583c90ba6cd6499e5f212aa9a8cd9b280f1",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_local_prediction_20261003/independent_audit.py",
+      "bytes": 4801,
+      "original_sha256": "c6b65f9a54d540513f57b408312dae70508ebd1da9b29501370eda9adde0830e",
+      "release_sha256": "52cca4f5810c8ee02144c4cd426664d5dff2cc6439f3d02215b59b2a63742a6d",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_local_prediction_20261003/protocol.md",
+      "bytes": 5000,
+      "original_sha256": "d08956097b6470a1cc8f5ebe8c5718109eeec3e76d34c6d4bb3c2018d5a4bb34",
+      "release_sha256": "5cfc3d3d6254e0df956f016db3cf7cc713d9b884542ddba1b24ae22f7a10e904",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/experiments/second_order_local_prediction_20261003/second_order.py",
+      "bytes": 13495,
+      "original_sha256": "e997a0ea0e96a4c02f12ffce34dad413de95d64634714d1e5f409eee334c1474",
+      "release_sha256": "156537f9b3d87b0f2262f6e18d99678b5e6f779b1ee47557843470b5ade1ac5e",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/BuildTwoPhaseValidation.java",
+      "bytes": 39220,
+      "original_sha256": "1197585fa6fcf774b4d6642a237d46ac1a5f8ac55c8a4fc2a003c4493e502221",
+      "release_sha256": "40960638676ac6db94b7b7646c0ef68da6df87971fc3e35d102470e7dd3d3c74",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/ContinueA75N15.java",
+      "bytes": 3135,
+      "original_sha256": "7cefe07682f7a95247b62d08ade4af90ef51f8f723f1078d2279ba439f3b38a3",
+      "release_sha256": "f52f007ef206e07b743ff73851d1a403370b2bbbe1e326d469963bf678acb145",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/ExportJointFields.java",
+      "bytes": 4749,
+      "original_sha256": "a6b5451c894a9b72c24f040e95e78a43fc6d84e2d23795a539e809ea3ad046b0",
+      "release_sha256": "f7f2c10a18811a45d0fb89dff8ceeaced5a79f1f243ef7fac3e23dd31b87d69e",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/mode_overlap.py",
+      "bytes": 4360,
+      "original_sha256": "bc198ce94c82db0004c11899b4f0eaeaefe37d1a22452870512ab8698f367be1",
+      "release_sha256": "bc198ce94c82db0004c11899b4f0eaeaefe37d1a22452870512ab8698f367be1",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/report_a75_joint.py",
+      "bytes": 9217,
+      "original_sha256": "87db3abf2c9805ed475d4113a3d438ace052f9a3bf30e8a8b4679c1ae22dc30f",
+      "release_sha256": "87db3abf2c9805ed475d4113a3d438ace052f9a3bf30e8a8b4679c1ae22dc30f",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/ResumeA75N15.java",
+      "bytes": 3259,
+      "original_sha256": "1246dce26ec4621e3c3b3c570328c74cc3c54af1ac21518f139b408ec3c0a1a7",
+      "release_sha256": "ad616269500440c93aca7d03d82bcc54d3e02f61a5850986c638fe39b6152df9",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a40_cross_mesh_fields.py",
+      "bytes": 5884,
+      "original_sha256": "4b01ecc43f549b8ec6b63cac93c0b6d47ad6b69933df7b048528170ec2bf433b",
+      "release_sha256": "c3feeb52271c702dcafee9dfe296d43571adb69393a1b21ba3a0a86f0506d9ee",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a40_cross_mesh_x.py",
+      "bytes": 4476,
+      "original_sha256": "c7627c748f851151fbb06d34c5c04187082b3fef076b3f46a9324de63f396584",
+      "release_sha256": "e151b0bc9aead7833a06bc5e01a7972dd24347e69d80354219672f7b71d9b225",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a40_joint_path_v2.py",
+      "bytes": 1060,
+      "original_sha256": "0a55c92da08a26a9ced9c867237acad6238110314939785048eb5d75612e4029",
+      "release_sha256": "0a55c92da08a26a9ced9c867237acad6238110314939785048eb5d75612e4029",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a40_joint_path.py",
+      "bytes": 6730,
+      "original_sha256": "69ef076a4492dfb1d7e630969ccd460b14b5300306d96322052a917ef6c46fed",
+      "release_sha256": "235b5013e8b25d9fbfcef33857903d2a82f379ae34eb629bc0d82da04c90bf8d",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a75_cross_mesh_fields.py",
+      "bytes": 5434,
+      "original_sha256": "25b3a8cf9f9d3f91a9358c59f6f1a18580f716bc018d4011758bb4c95e51161e",
+      "release_sha256": "320c096eee75ddf01abd398f68030425b0f84d1daa6aec789dbab19e50d8be67",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a75_cross_mesh_x.py",
+      "bytes": 5343,
+      "original_sha256": "04bb3fa880bb201149d058b75f96a2ad4ad0c97c22f2fdace3f80980dbed998a",
+      "release_sha256": "64d1cc67fbe87926a59e5432382c54ed2955f98bf3f70be01a3aa73430d3a5f5",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a75_joint_n15.py",
+      "bytes": 8121,
+      "original_sha256": "38d1238f3fc0d50f5c85d44ce52fc7454757368ed495a3d30208ccb15aa9fbcd",
+      "release_sha256": "acd45f31d2e71092d416016a4ff626f6a642e733c53ec8c87baf2cda2592476e",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a75_joint_path.py",
+      "bytes": 7297,
+      "original_sha256": "3251594b6aa5d66fa4749cbd7c3848de9f2327fe689ce5c77925043f537978c8",
+      "release_sha256": "a77063761fc67a5a32ea051cc39ef05a407bfc7c13098b5a50bfa86b2a564bb5",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_a75_reboot_resume.py",
+      "bytes": 8503,
+      "original_sha256": "c90c74281f1c8772d17e6ff3cfef4b943562c1e74c985d33546e80b7c9149096",
+      "release_sha256": "a18c4d689cabe9d61ababa2b88313a5714fb3e06ef9346390dc22ad0771ea5cf",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_baseline_cross_mesh_x.py",
+      "bytes": 4375,
+      "original_sha256": "043492ad391acca6ddd971238b4b46cc77255064e6e8031fe3af392301e1901d",
+      "release_sha256": "63b07195f95669449df29c9e3f4b69f2571bcd0ae219700927d0027b2b129b58",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_cross_mesh_fields.py",
+      "bytes": 6397,
+      "original_sha256": "28f9d8ab73f9659297f817adeb916e7571eaf2e62a5b290eddbb01a777590b80",
+      "release_sha256": "f0e1c2280ebdc0b3c69ee7bc484b8fbcc46d214d4745e0dd9de9091d825012cb",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/run_joint_baseline.py",
+      "bytes": 10089,
+      "original_sha256": "0e0bddce57ff4278b7106f7050c1734be5a3402a862530fb0be32061997f4718",
+      "release_sha256": "304af620da2615e8da00c7ef83db458f84aaab425da2bb295b6ce328ec8a96b8",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/joint_mesh_autoresearch/src/SolveA75JointPath.java",
+      "bytes": 3824,
+      "original_sha256": "9f594390e802d62f892b8de6e3f02cb9fcebf7e3649843d52c3d045287718961",
+      "release_sha256": "6ead6b8d6ddf6e702cbe3a8b78a9fd41440409063ae00956bbd300562dd92a6f",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_edge_focus_20260926.py",
+      "bytes": 30514,
+      "original_sha256": "0cb4800fc3b1f1b995eb5d51b7aded620c4ed0bfcb7a877adcd173d43885d360",
+      "release_sha256": "0cb4800fc3b1f1b995eb5d51b7aded620c4ed0bfcb7a877adcd173d43885d360",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_four_theory_bands.py",
+      "bytes": 4030,
+      "original_sha256": "8ff1c88c30fa7b0b0a129748fbd27b3c95a5a109ab8cb4c5d828b3f052fbefb1",
+      "release_sha256": "9f4f0cb08cfeaa5d035bc7800f3971581c8d887e5282577ab9dc9faa4e400c8d",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_node_gradient_process_20261004.py",
+      "bytes": 5392,
+      "original_sha256": "db8fc8c2aea39fb9251b0b36fb6a2b335447a0e8bf54e5ffdeee842dbbd3e133",
+      "release_sha256": "db8fc8c2aea39fb9251b0b36fb6a2b335447a0e8bf54e5ffdeee842dbbd3e133",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_pwe_path_convergence_20260927.py",
+      "bytes": 3961,
+      "original_sha256": "bc1a314855d31cf36fcc168c372b00b9a521ca179e0d979f95a83f833310182f",
+      "release_sha256": "bc1a314855d31cf36fcc168c372b00b9a521ca179e0d979f95a83f833310182f",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_revision_band_edges.py",
+      "bytes": 5831,
+      "original_sha256": "388c9d738c34f60e5a4c856869e60e2905c587d19fd608100749d08b8c5ea615",
+      "release_sha256": "0d33d141139d9bc0813822b9ac5751f186dc01d5fd0a7d4c25b6ef947cacfbd6",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_revision_edge_prediction.py",
+      "bytes": 3900,
+      "original_sha256": "ddfbb0694751a0d5d76353f25ebc93b9e05ba02c0fa3b9b79899d3fe421847dc",
+      "release_sha256": "3e150bdd3571e57f44712f9b9863ce67f489b2b2a96f2631ac26716ffa82896f",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/plot_six_panel_control_errors.py",
+      "bytes": 4298,
+      "original_sha256": "7262558cc825dad5b2467d2912119693c41286b42d80df5504743c091f7cfc86",
+      "release_sha256": "2d2aa925fea07f246b98599c387b9d0a194179c38bd08c099b178dd8c4138c49",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_fixed_ratio_scale.py",
+      "bytes": 9027,
+      "original_sha256": "77d75ed4f1b0e0b313a521d2fc17bb94bca288cde43b9dff375d19ba323445ae",
+      "release_sha256": "b5474f3d4ca85156fb012b0c90c20af53dab8fc40e991240e902c08abc6ea700",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_pwe_path_convergence_20260927.py",
+      "bytes": 9021,
+      "original_sha256": "e1228ae827627ea8e05e09a1476fc17b003faa6e31cdcbf7d90c65e0b19691c8",
+      "release_sha256": "e1228ae827627ea8e05e09a1476fc17b003faa6e31cdcbf7d90c65e0b19691c8",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_pwe_scale_thickness.py",
+      "bytes": 3248,
+      "original_sha256": "c42b05f14880176b2df163deba28c54d3393e3bfd7d3c5f6df16dda85774031f",
+      "release_sha256": "c42b05f14880176b2df163deba28c54d3393e3bfd7d3c5f6df16dda85774031f",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_ratio75_thickness.py",
+      "bytes": 13369,
+      "original_sha256": "b4b61582da6451d10788da048813287180d0e5df2a26d3e29c17b6b0462c605f",
+      "release_sha256": "709f7279054888b8538d6602013032fc1a2c9cc02af8e39abe0328745e57a9e5",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_scale_mcst_reference.py",
+      "bytes": 11552,
+      "original_sha256": "7e95d84c231450da320fa2c9214d49e5767be5ddaa9d6aa51a875f7f87dcdc3f",
+      "release_sha256": "cd0788c2173f64bb8814ad83c5bfae74f43b2cb713ff84fbf43679cc1a183a92",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_section41_m2l4.py",
+      "bytes": 11197,
+      "original_sha256": "6dda7b45c1f905125316a50f9a7d42a6de81f9306b33e95f32887985868a7aea",
+      "release_sha256": "6dda7b45c1f905125316a50f9a7d42a6de81f9306b33e95f32887985868a7aea",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/report_thickness_m2l4.py",
+      "bytes": 6124,
+      "original_sha256": "4b31905ac210be027302e7b5a3fb013d5ed4aea39afd66a660820e3654c466db",
+      "release_sha256": "f7aec55bd0aebd5533aa4d7a801c4298cae5569f811b09b7f3698e1714ae2622",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_classical_comsol_baseline.py",
+      "bytes": 4641,
+      "original_sha256": "0b0e2829337d0b92c77fc918d5fac3cd1efc5f5044e4f7f71787e3ee6e855933",
+      "release_sha256": "f48646b8dda954935d4f3f3a4c492db775dd90040d784d11bd0f9cb6be10e919",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_convergence.py",
+      "bytes": 8469,
+      "original_sha256": "64f104265d624df943d8bade33a2147860fd9a00edace4676fca62ae2842d64e",
+      "release_sha256": "64f104265d624df943d8bade33a2147860fd9a00edace4676fca62ae2842d64e",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_fixed_ratio_scale.py",
+      "bytes": 6470,
+      "original_sha256": "ac9e90e3428fd7bd021188477120c2d3c0449542a8b394bfe38b24f0061a505f",
+      "release_sha256": "ac9e90e3428fd7bd021188477120c2d3c0449542a8b394bfe38b24f0061a505f",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_inverse_scan_bands.py",
+      "bytes": 3394,
+      "original_sha256": "b210fcedccd6be2d70b1b3bdd9fea93f9e9e3b30ee99b25f80dc2429f2109ece",
+      "release_sha256": "b210fcedccd6be2d70b1b3bdd9fea93f9e9e3b30ee99b25f80dc2429f2109ece",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_large_scale_3d.py",
+      "bytes": 6456,
+      "original_sha256": "30a4b25aa0cc6c992fa313583cab4b74d75af839c1de312cf374332b1242f214",
+      "release_sha256": "91d41db03e4924b1384c8be3743b9017485b41e43dc4b02032737df4895ab810",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_node_gradient_process_20261004.py",
+      "bytes": 10985,
+      "original_sha256": "a4d3d8382651f9389f82ece8b9e7bb397c05177f83bfd2b24442d59c78256625",
+      "release_sha256": "a4d3d8382651f9389f82ece8b9e7bb397c05177f83bfd2b24442d59c78256625",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_node_shape_pilot.py",
+      "bytes": 13579,
+      "original_sha256": "5daccb8c985e582632468e9da1fa4d13b2e30e0f6c2925edd383296c2458fb02",
+      "release_sha256": "5daccb8c985e582632468e9da1fa4d13b2e30e0f6c2925edd383296c2458fb02",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_pwe_path_convergence_dense_20260927.py",
+      "bytes": 8687,
+      "original_sha256": "cfd8cc0e17985110b3476af897c4eb3c94e2721dc71f25d6aa702de3460c3ca2",
+      "release_sha256": "cfd8cc0e17985110b3476af897c4eb3c94e2721dc71f25d6aa702de3460c3ca2",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_ratio_scale_fullpath_m2l4.py",
+      "bytes": 7242,
+      "original_sha256": "a0266fddcd555e8fc2f652971df3f426808ae65532e9bd5e1978639f9971b178",
+      "release_sha256": "22908f72ea1eb8f3d81ea8566f1d52f696962a848e73695dd69e041d5adc0fec",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_ratio75_thickness_fullpath_m2l4.py",
+      "bytes": 9348,
+      "original_sha256": "b11e16bf79671e193c7971e721c3cf0420d9b694571c7217161d38747e2c8662",
+      "release_sha256": "9d745e1e89861d36e02de5c23a877731caa9f5ea766bf20b4f351ae8832b8c2f",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_ratio75_thickness_n21.py",
+      "bytes": 5359,
+      "original_sha256": "88de41ed8ca40eee9af8a88a8dcc2534fb2ee2d8082e6121f1f671713888324c",
+      "release_sha256": "88de41ed8ca40eee9af8a88a8dcc2534fb2ee2d8082e6121f1f671713888324c",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_ratio75_thickness_pwe.py",
+      "bytes": 4412,
+      "original_sha256": "3cb2fa1c46c696da97652328a04d761868f802cf9a834388de53f8a3c0ec5a5e",
+      "release_sha256": "3cb2fa1c46c696da97652328a04d761868f802cf9a834388de53f8a3c0ec5a5e",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_edge_energy_map.py",
+      "bytes": 8453,
+      "original_sha256": "aa54b44cd73f57e25707bb2dae4d30b77be1d705efb90fa2ddc0e245ebafd1f7",
+      "release_sha256": "aa54b44cd73f57e25707bb2dae4d30b77be1d705efb90fa2ddc0e245ebafd1f7",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_edge_prediction.py",
+      "bytes": 7241,
+      "original_sha256": "bfe6171f9f797f1da447cbc726ae6fbb5ef2655f75364b66468dd37a68df8edd",
+      "release_sha256": "bfe6171f9f797f1da447cbc726ae6fbb5ef2655f75364b66468dd37a68df8edd",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_ibz_grid8.py",
+      "bytes": 313,
+      "original_sha256": "00d43a8a750d918aa4a6323682a1d9d6191d6468e007c6183a941f82f2d31644",
+      "release_sha256": "00d43a8a750d918aa4a6323682a1d9d6191d6468e007c6183a941f82f2d31644",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_ibz_n21.py",
+      "bytes": 505,
+      "original_sha256": "516ac4bd7c4acd3f075443a074ad3b2d50c914aaf502d07ec8e3cf67dd56ed44",
+      "release_sha256": "516ac4bd7c4acd3f075443a074ad3b2d50c914aaf502d07ec8e3cf67dd56ed44",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_ibz_scan.py",
+      "bytes": 7784,
+      "original_sha256": "d311e82e3683515d6f1e818e9d604c7f93df1b87d601859e443f9ef84d88d710",
+      "release_sha256": "d311e82e3683515d6f1e818e9d604c7f93df1b87d601859e443f9ef84d88d710",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_revision_inverse_derivative_check.py",
+      "bytes": 3666,
+      "original_sha256": "54c52718d64ddbd0a6f4c21ddfe30dcb31dbea387c9e1eb922548715edb96e0c",
+      "release_sha256": "54c52718d64ddbd0a6f4c21ddfe30dcb31dbea387c9e1eb922548715edb96e0c",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_same_order_bands.py",
+      "bytes": 4150,
+      "original_sha256": "d96dbdd16c22b4165add3c7109fae71d41730ee7075aabb2b591f7764c845df0",
+      "release_sha256": "d96dbdd16c22b4165add3c7109fae71d41730ee7075aabb2b591f7764c845df0",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_scale_addendum_20260927.py",
+      "bytes": 11420,
+      "original_sha256": "90cfcb9e4c147f9090ca0deb1f5d5169d85659c022f1eab64ac6605cc58558f0",
+      "release_sha256": "f2118b6651d9184bad5ae8346bac6e4955463d9a911859ae2855dd70b05f1d68",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_section41_fullpath_m2l4.py",
+      "bytes": 5932,
+      "original_sha256": "ee1dd747db6ea49381397102ad6ce43f6939c7c6486b086f1f4ae6921c0dc89b",
+      "release_sha256": "c637703c80aab864701cd66e1ce11fdb73a9dd84bcc4fb21301949821b479d22",
+      "status": "publication_adaptation"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/run_verified_inverse_scans.py",
+      "bytes": 6162,
+      "original_sha256": "142e81fdfa91c68b96460e725a0fcf5e2267ab66f44284cd8c9f3ce14a6f967c",
+      "release_sha256": "142e81fdfa91c68b96460e725a0fcf5e2267ab66f44284cd8c9f3ce14a6f967c",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/runs/scale_addendum_20260927/sources/inverse_circle_bending.py",
+      "bytes": 3791,
+      "original_sha256": "679a57197224239f2bd9e06603cb414ae2873fada1b5c47554d8f39d222745e2",
+      "release_sha256": "679a57197224239f2bd9e06603cb414ae2873fada1b5c47554d8f39d222745e2",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/runs/scale_addendum_20260927/sources/real_circle_bending.py",
+      "bytes": 2007,
+      "original_sha256": "d49fd896b4bdbef91f2fec33a3cb633746b249c89f82669954c3634e70a484d4",
+      "release_sha256": "d49fd896b4bdbef91f2fec33a3cb633746b249c89f82669954c3634e70a484d4",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/acoustics.py",
+      "bytes": 4343,
+      "original_sha256": "b4233c23e2f970ec24a9abdff89e1ba2b1ae5c20845644500c9d8380a7e7d276",
+      "release_sha256": "b4233c23e2f970ec24a9abdff89e1ba2b1ae5c20845644500c9d8380a7e7d276",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/classical_bending.py",
+      "bytes": 1599,
+      "original_sha256": "70043528883bbc0649d416a2317b05010a5850b726c1f2c57fcb60a99cd47658",
+      "release_sha256": "70043528883bbc0649d416a2317b05010a5850b726c1f2c57fcb60a99cd47658",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/classical_solid_fem.py",
+      "bytes": 5083,
+      "original_sha256": "aa36e9b56c80fd14d6d806bfcb1e2af866b25a595deaf7c391e60ca655a97f20",
+      "release_sha256": "aa36e9b56c80fd14d6d806bfcb1e2af866b25a595deaf7c391e60ca655a97f20",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/cutoff_limit.py",
+      "bytes": 2308,
+      "original_sha256": "e4a3f52b021008a1a247e3133df1100628a094ffe393bfedb42d7f98c629eb73",
+      "release_sha256": "e4a3f52b021008a1a247e3133df1100628a094ffe393bfedb42d7f98c629eb73",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/elastic_layer.py",
+      "bytes": 1879,
+      "original_sha256": "5689ec230e0f00c29c5d88c934dbded59d3e7c2fd7898008f4d8dd0a6f7dfcd8",
+      "release_sha256": "5689ec230e0f00c29c5d88c934dbded59d3e7c2fd7898008f4d8dd0a6f7dfcd8",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/feasible_sqp.py",
+      "bytes": 7477,
+      "original_sha256": "e22d8fe50022e1661d464fa42ab8c3ec66d781816ab7ad5995eb24cbf4572c49",
+      "release_sha256": "e22d8fe50022e1661d464fa42ab8c3ec66d781816ab7ad5995eb24cbf4572c49",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/frequency_polynomial.py",
+      "bytes": 1689,
+      "original_sha256": "08319bc14d840ac17c97839228a37e7d334531be79c4da486bd4be70960bb498",
+      "release_sha256": "08319bc14d840ac17c97839228a37e7d334531be79c4da486bd4be70960bb498",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/geometry_coefficients.py",
+      "bytes": 432,
+      "original_sha256": "414de69ebfec8a67d30ac025f93c3e08fc337646f792bc5eea001dc8f7c42e86",
+      "release_sha256": "414de69ebfec8a67d30ac025f93c3e08fc337646f792bc5eea001dc8f7c42e86",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/hermite_layer.py",
+      "bytes": 2735,
+      "original_sha256": "f1882bee1c8a19d6bde713dae3ef3fd84f04c593045d4f24ffc851ca34738b06",
+      "release_sha256": "f1882bee1c8a19d6bde713dae3ef3fd84f04c593045d4f24ffc851ca34738b06",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/inverse_circle_bending.py",
+      "bytes": 4167,
+      "original_sha256": "93bdc602ee43556e76271bb435cf499a8e662d30d4285d231a8e5030bf9aaadb",
+      "release_sha256": "93bdc602ee43556e76271bb435cf499a8e662d30d4285d231a8e5030bf9aaadb",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/node_classic_dense.py",
+      "bytes": 2029,
+      "original_sha256": "7e36a54f415314bdb5c775026692df575500cbf255c26e5efcd49e618a3b5fc1",
+      "release_sha256": "7e36a54f415314bdb5c775026692df575500cbf255c26e5efcd49e618a3b5fc1",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/node_mcst_dense.py",
+      "bytes": 2204,
+      "original_sha256": "fd7b91478ac1c21f02b13a0b671f499c18ea2efe1e648cc330914aeec308004a",
+      "release_sha256": "fd7b91478ac1c21f02b13a0b671f499c18ea2efe1e648cc330914aeec308004a",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/node_polar_free.py",
+      "bytes": 3464,
+      "original_sha256": "5038908118eef36c29030eef7055eef111272db0241595195a807326067f29de",
+      "release_sha256": "5038908118eef36c29030eef7055eef111272db0241595195a807326067f29de",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/node_shape_bending.py",
+      "bytes": 8260,
+      "original_sha256": "2658d01d7f2d5da4d89e11ec611ce68dcf334e7e0076c247c83944b2a8b10375",
+      "release_sha256": "2658d01d7f2d5da4d89e11ec611ce68dcf334e7e0076c247c83944b2a8b10375",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/node_shape_sensitivity.py",
+      "bytes": 4354,
+      "original_sha256": "8df177786a52f26dc5e740997acd9d0bf62099ce480e3cfbc5aa06a5931ef06d",
+      "release_sha256": "8df177786a52f26dc5e740997acd9d0bf62099ce480e3cfbc5aa06a5931ef06d",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/real_circle_bending.py",
+      "bytes": 2883,
+      "original_sha256": "39055b52bd76cabf096a58285bc58f5f9ba1d550d5277f9899e638aaba255567",
+      "release_sha256": "39055b52bd76cabf096a58285bc58f5f9ba1d550d5277f9899e638aaba255567",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/solid_acoustic_fem.py",
+      "bytes": 2140,
+      "original_sha256": "5ad6042bec649001a58179c447da1c5ff49dd700a0225370a63fbdfeb05791f7",
+      "release_sha256": "5ad6042bec649001a58179c447da1c5ff49dd700a0225370a63fbdfeb05791f7",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/solid_scattering_matrix.py",
+      "bytes": 1707,
+      "original_sha256": "64bdd0e09b09519fd90a835346be69a4be4b5286f96f2a1330b6e400beccc97c",
+      "release_sha256": "64bdd0e09b09519fd90a835346be69a4be4b5286f96f2a1330b6e400beccc97c",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/surface.py",
+      "bytes": 1376,
+      "original_sha256": "255d8a709d4323edac48641066ceaa982dfb1ac890cbc473d6ef7faa81dc971e",
+      "release_sha256": "255d8a709d4323edac48641066ceaa982dfb1ac890cbc473d6ef7faa81dc971e",
+      "status": "identical_copy"
+    },
+    {
+      "path": "research/wavemotion_surface_20260920/src/symmetric_bending.py",
+      "bytes": 2639,
+      "original_sha256": "9f0fdb41e0724e06bc0b29205854cf394d9845e0ca7fac6946c84feae320703a",
+      "release_sha256": "9f0fdb41e0724e06bc0b29205854cf394d9845e0ca7fac6946c84feae320703a",
+      "status": "identical_copy"
+    }
+  ]
+}
