@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FIXED_X_PREDICTION_RECOMPUTED",
+  "rows": 16,
+  "min_mass_MAC": 0.9999803633216658,
+  "max_abs_change_error": 8.314346883955825e-05,
+  "max_abs_gap_prediction_error_percentage_points": 0.0036461328936887583,
+  "NOT_RUN": [
+    "perturbed full-IBZ search",
+    "3D perturbation prediction"
+  ]
+}

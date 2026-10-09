@@ -1,0 +1,30 @@
+{
+  "scope": "Prescribed material parameters, extracted from the saved material_rows only",
+  "units": {
+    "table_E_GPa": "GPa",
+    "table_density": "kg/m^3",
+    "table_ell_um": "micrometre"
+  },
+  "material_rows": [
+    {
+      "phase": "环氧",
+      "table_E_GPa": 4.35,
+      "table_nu": 0.367925,
+      "code_nu": 0.3679245283018868,
+      "table_density": 1180.0,
+      "table_ell_um": 1.0,
+      "ell_source": "OWN_MODEL_SETTING",
+      "status": "PASS"
+    },
+    {
+      "phase": "钢",
+      "table_E_GPa": 210.6,
+      "table_nu": 0.3,
+      "code_nu": 0.30000000000000004,
+      "table_density": 7780.0,
+      "table_ell_um": 0.0,
+      "ell_source": "OWN_MODEL_SETTING",
+      "status": "PASS"
+    }
+  ]
+}

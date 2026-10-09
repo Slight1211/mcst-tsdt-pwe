@@ -1,0 +1,40 @@
+{
+  "status": "PASS_EIGHT_POINT_PATH_DATA_REPLOTTED",
+  "scale_rows": 40,
+  "thickness_rows": 32,
+  "figure4_reference": "same-geometry 3D MCST M2L4 sampled-path edges for all four PWE models",
+  "figure6_reference": "same-geometry 3D MCST M2L4 sampled-path edges for all four PWE models",
+  "J45_trend_source": "Scale and thickness panel (c): four PWE J45 values minus the matching 3D MCST M2L4 J45",
+  "figure4_J45_points": 10,
+  "figure4_display_a_um": [
+    40,
+    75,
+    100,
+    150,
+    200,
+    500,
+    750,
+    1000,
+    1500,
+    2000
+  ],
+  "figure5_display_a_um": [
+    40,
+    75,
+    100,
+    200,
+    500,
+    2000
+  ],
+  "scale_all_vs_3d_mcst_rows": 40,
+  "thickness_all_vs_3d_mcst_rows": 32,
+  "figure6_J45_points": 8,
+  "figure6_J45_curves": 4,
+  "section41_path_models": 4,
+  "section41_mesh_edge_comparisons": 10,
+  "section41_path_edge_location": "X for all four PWE models and two 3D models",
+  "not_run": [
+    "continuous irreducible-zone extremum certification",
+    "3D field MAC and joint mesh refinement"
+  ]
+}

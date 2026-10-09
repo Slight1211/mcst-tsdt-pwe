@@ -1,0 +1,550 @@
+{
+  "collection": "wave_motion_20261009_v1",
+  "files": [
+    {
+      "path": "assets/item-001.png",
+      "label": "section41_mesh_M1_L4",
+      "bytes": 438755,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-002.png",
+      "label": "section41_mesh_M1_L6",
+      "bytes": 420785,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-003.png",
+      "label": "section41_mesh_M2_L2",
+      "bytes": 320996,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-004.png",
+      "label": "section41_mesh_M2_L4",
+      "bytes": 321547,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-005.png",
+      "label": "section41_mesh_M2_L6",
+      "bytes": 320058,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-006.png",
+      "label": "section41_mesh_M3_L2",
+      "bytes": 253599,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-007.png",
+      "label": "section41_mesh_M3_L4",
+      "bytes": 253565,
+      "supports": [
+        "Figure B1"
+      ],
+      "role": "mesh_visual"
+    },
+    {
+      "path": "assets/item-008.json",
+      "label": "figure5_scale_bands.spectra",
+      "bytes": 30623,
+      "supports": [
+        "Figure 5"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-009.json",
+      "label": "figure7_thickness_bands.spectra",
+      "bytes": 30373,
+      "supports": [
+        "Figure 7"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-010.npz",
+      "label": "reconstructed_fields",
+      "bytes": 8328150,
+      "supports": [
+        "Figure 8"
+      ],
+      "role": "source_input"
+    },
+    {
+      "path": "assets/item-011.json",
+      "label": "recheck_results",
+      "bytes": 724,
+      "supports": [
+        "Table 1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-012.csv",
+      "label": "pwe_x_order_mesh_comparison",
+      "bytes": 3627,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-013.csv",
+      "label": "edge_summary",
+      "bytes": 3629,
+      "supports": [
+        "Table B.5"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-014.csv",
+      "label": "mac_matrices",
+      "bytes": 25488,
+      "supports": [
+        "Table B.5"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-015.csv",
+      "label": "independent_evaluation_v2",
+      "bytes": 945,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-016.csv",
+      "label": "predictions",
+      "bytes": 4486,
+      "supports": [
+        "Figure 9",
+        "Table A.1"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-017.json",
+      "label": "audit",
+      "bytes": 1080,
+      "supports": [
+        "Body size/thickness scans",
+        "Table B.2"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-018.csv",
+      "label": "scale_all_vs_3d_mcst_10scales",
+      "bytes": 8142,
+      "supports": [
+        "Body size/thickness scans",
+        "Figure 4",
+        "Table 2"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-019.csv",
+      "label": "section41_cross_mesh_model_errors",
+      "bytes": 2744,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-020.csv",
+      "label": "section41_mesh_edge_changes",
+      "bytes": 638,
+      "supports": [
+        "Table B.2"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-021.csv",
+      "label": "section41_path_edges",
+      "bytes": 740,
+      "supports": [
+        "Table 4"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-022.csv",
+      "label": "thickness_all_vs_3d_mcst",
+      "bytes": 6649,
+      "supports": [
+        "Body size/thickness scans",
+        "Figure 6",
+        "Table 2"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-023.csv",
+      "label": "pwe_mesh_edge_errors",
+      "bytes": 648,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-024.csv",
+      "label": "selected_path_spectra",
+      "bytes": 4448,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-025.csv",
+      "label": "gamma_comparison",
+      "bytes": 624,
+      "supports": [
+        "Table B.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-026.csv",
+      "label": "frequency_differences",
+      "bytes": 924,
+      "supports": [
+        "Table B.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-027.csv",
+      "label": "pwe_mesh_edge_errors",
+      "bytes": 647,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-028.csv",
+      "label": "selected_path_spectra",
+      "bytes": 4448,
+      "supports": [
+        "Table B.3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-029.csv",
+      "label": "path",
+      "bytes": 623,
+      "supports": [
+        "Figure 3"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-030.csv",
+      "label": "pwe",
+      "bytes": 29838,
+      "supports": [
+        "Figure 3",
+        "Table 4"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-031.csv",
+      "label": "band_edge_results",
+      "bytes": 4400,
+      "supports": [
+        "Table 5"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-032.json",
+      "label": "edge_prediction_frozen",
+      "bytes": 3402,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-033.npz",
+      "label": "ibz_N15_tau0.08_ix4_iy0",
+      "bytes": 139785,
+      "supports": [
+        "Figure 8"
+      ],
+      "role": "source_input"
+    },
+    {
+      "path": "assets/item-034.csv",
+      "label": "band_edge_results",
+      "bytes": 283,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-035.csv",
+      "label": "ibz_grid_spectra",
+      "bytes": 51669,
+      "supports": [
+        "Appendix C: sampled IBZ checks",
+        "Table 3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-036.csv",
+      "label": "ibz_grid5_band_edge_results",
+      "bytes": 1094,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-037.csv",
+      "label": "band_edge_results",
+      "bytes": 1094,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-038.csv",
+      "label": "ibz_grid_spectra",
+      "bytes": 289558,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-039.json",
+      "label": "inverse_laurent_assessment",
+      "bytes": 1202,
+      "supports": [
+        "Table 5"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-040.csv",
+      "label": "local_edge_results",
+      "bytes": 568,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-041.csv",
+      "label": "local_spectra",
+      "bytes": 18190,
+      "supports": [
+        "Appendix C: sampled IBZ checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-042.json",
+      "label": "prediction_assessment",
+      "bytes": 324,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-043.csv",
+      "label": "prediction_checks",
+      "bytes": 5892,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-044.csv",
+      "label": "same_mode_methods",
+      "bytes": 1644,
+      "supports": [
+        "Table 5"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-045.csv",
+      "label": "final_ibz153",
+      "bytes": 23600,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-046.csv",
+      "label": "final_vertices",
+      "bytes": 2514,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks",
+        "Figure 10"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-047.csv",
+      "label": "final_N21_ibz45",
+      "bytes": 6871,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-048.csv",
+      "label": "initial_N21_ibz45",
+      "bytes": 6860,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-049.csv",
+      "label": "initial_ibz45",
+      "bytes": 6871,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks",
+        "Figure 10"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-050.csv",
+      "label": "initial_vertices",
+      "bytes": 2514,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks",
+        "Figure 10"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-051.csv",
+      "label": "round1_ibz45",
+      "bytes": 6897,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks",
+        "Figure 10"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-052.json",
+      "label": "round1_optimizer",
+      "bytes": 1039,
+      "supports": [
+        "Appendix D: six-coordinate local SQP and independent checks",
+        "Figure 10"
+      ],
+      "role": "audit"
+    },
+    {
+      "path": "assets/item-053.csv",
+      "label": "pwe_path_convergence_dense",
+      "bytes": 3253,
+      "supports": [
+        "Figure 2",
+        "Table 3"
+      ],
+      "role": "reported_data"
+    },
+    {
+      "path": "assets/item-054.npz",
+      "label": "point0_h5.88",
+      "bytes": 855829,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "representative_completed_raw_validation"
+    },
+    {
+      "path": "assets/item-055.npz",
+      "label": "point1_h6.12",
+      "bytes": 852403,
+      "supports": [
+        "Table A.1"
+      ],
+      "role": "representative_completed_raw_validation"
+    },
+    {
+      "path": "assets/item-056.csv",
+      "label": "frequency_differences",
+      "bytes": 3175,
+      "supports": [
+        "Table B.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-057.csv",
+      "label": "repeatability_summary",
+      "bytes": 313,
+      "supports": [
+        "Table B.1"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    },
+    {
+      "path": "assets/item-058.csv",
+      "label": "spectra",
+      "bytes": 300315,
+      "supports": [
+        "Table 3"
+      ],
+      "role": "completed_numeric_result_or_audit_metadata"
+    }
+  ],
+  "scope": "selected saved numerical results and mesh visuals",
+  "not_included": [
+    "original-source index",
+    "execution logs and runtime",
+    "manuscript files",
+    "COMSOL native models",
+    "complete historical eigenvector archives"
+  ],
+  "new_numerical_calculations": false
+}

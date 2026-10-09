@@ -1,0 +1,37 @@
+{
+  "status": "PASS_N15_INVERSE_LAURENT_AND_FULL_MASS",
+  "case": "a=75um, h/a=.08, X, inverse MCST-TSDT N15",
+  "held_out_errors": {
+    "stiffness_relative": 3.008965235495011e-16,
+    "mass_relative": 2.7900874951963035e-16
+  },
+  "bands": [
+    {
+      "band": 4,
+      "kappa_minus1": 0.008765223311848497,
+      "kappa_1": 0.21835851107314486,
+      "kappa_3": 0.7728762656150128,
+      "eta_1": 0.979283602110238,
+      "eta_3": 0.020716397889761574,
+      "S_h_Laurent": 0.7433946444134027,
+      "S_h_frozen_matrix_FD": 0.7434011573001114,
+      "absolute_derivative_difference": 6.5128867086095e-06
+    },
+    {
+      "band": 5,
+      "kappa_minus1": 0.008811504862110128,
+      "kappa_1": 0.21167237965661675,
+      "kappa_3": 0.779516115481277,
+      "eta_1": 0.9751658748973806,
+      "eta_3": 0.024834125102618728,
+      "S_h_Laurent": 0.7458704855165481,
+      "S_h_frozen_matrix_FD": 0.745877020231189,
+      "absolute_derivative_difference": 6.534714640848982e-06
+    }
+  ],
+  "warning": "Laurent coefficient groups are algebraic terms, not separately nonnegative energies",
+  "NOT_RUN": [
+    "2D FEM decomposition",
+    "3D modal derivative"
+  ]
+}

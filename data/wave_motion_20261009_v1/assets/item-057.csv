@@ -1,0 +1,7 @@
+comparison,maximum_difference_Hz,strict_closure
+legacy_62p5Hz,62.52064662604084,FAIL
+tight_62p5Hz,108.8807780131873,FAIL
+shift1_repeat,4.950706511408498e-06,PASS
+shift3_repeat,3.8129499557726376e-06,PASS
+shift1_vs_shift3_first,1.8847146066036657e-06,PASS
+shift1_vs_shift3_second,2.134292742539401e-06,PASS
