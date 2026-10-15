@@ -1,0 +1,11 @@
+selection,dimension,actual_count,expected_count,passed
+lox,2,1,1,true
+hix,2,1,1,true
+pairx,2,2,2,true
+loy,2,1,1,true
+hiy,2,1,1,true
+pairy,2,2,2,true
+loz,2,1,1,true
+hiz,2,1,1,true
+pairz,2,2,2,true
+bottomEdges,1,4,4,true

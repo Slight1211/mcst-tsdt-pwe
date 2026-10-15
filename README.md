@@ -2,7 +2,7 @@
 
 Research code for flexural-wave dispersion in a periodic steel–epoxy plate, using modified couple-stress theory (MCST), third-order shear deformation theory (TSDT), and a plane-wave expansion (PWE). The repository also includes FSDT comparisons, circular-inclusion parameter scans, local band-edge prediction, physical displacement-field overlap, and gradient-based optimization of a nodal inclusion boundary.
 
-This is a **source-only release**. Manuscripts, publication PDFs, saved spectra, field exports, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
+The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
 
 ## Quick check
 
@@ -64,7 +64,7 @@ This is a substantial numerical calculation; it is not run by the smoke check. T
 | Scientific plots | `plot_*.py`, `report_*.py`, `run_revision_edge_energy_map.py` | The CSV/NPZ/JSON inputs expected by each script |
 | 3D models and mesh comparisons | `comsol/*.java`, `joint_mesh_autoresearch/src/` | A licensed COMSOL installation, locally compiled Java classes and, for continuation scripts, the original completed checkpoints |
 
-Paths in the table are relative to `research/wavemotion_surface_20260920/` except `comsol/`. Input data are deliberately not included; their absence must not be interpreted as a successful reproduction. Publication-specific manuscript/PDF checks and dependencies on the original private Git history are separated from scientific-input checks in the public adaptations. See `PUBLIC_RELEASE_NOTES.md` and the source manifest.
+Paths in the table are relative to `research/wavemotion_surface_20260920/` except `comsol/`. The selected public data collection is not a complete input tree for these historical workflows. Use the portable addendum for the explicitly mapped saved-data checks; do not interpret missing inputs as a successful reproduction. Publication-specific manuscript/PDF checks and dependencies on the original private Git history are separated from scientific-input checks in the public adaptations. See `PUBLIC_RELEASE_NOTES.md` and the source manifest.
 
 For data-dependent adapted experiments, `MCST_DATA_ROOT` points to a data tree laid out like `research/wavemotion_surface_20260920/`. The saved research kernels remain in this source repository. Inspect each experiment's command-line help and protocol before running; historical protocols describe the original experiment, not a new public execution.
 
@@ -99,6 +99,6 @@ The scientific plotting sources are provided, but the final manuscript's font-co
 
 ## Verification and licensing
 
-`PUBLIC_RELEASE_CHECKS.json` records the checks performed on this release. Full N=15/N=21 scans, optimization, COMSOL calculations and saved-data audits are **not rerun during packaging**. There is no continuous-error-bound claim from finite mesh differences.
+`PUBLIC_RELEASE_CHECKS.json` records the checks performed on the initial source release. The addendum README describes its separate saved-data checks. Full N=15/N=21 scans, optimization, COMSOL calculations and saved-data audits are **not rerun during packaging**. There is no continuous-error-bound claim from finite mesh differences.
 
 No software license has been selected for this release. No third-party reference implementation or font files are included. Citation metadata will be updated when the associated paper has a final bibliographic record.

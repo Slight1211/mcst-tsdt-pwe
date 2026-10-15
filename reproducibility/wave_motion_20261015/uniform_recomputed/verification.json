@@ -1,0 +1,30 @@
+{
+  "scope": "Saved homogeneous-solid exports; no new eigenproblem solved",
+  "cases": [
+    {
+      "n": 4,
+      "ell_over_a": 0.05,
+      "checks_evaluated": 46,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "ell_over_a": 0.1,
+      "checks_evaluated": 46,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "ell_over_a": 0.05,
+      "checks_evaluated": 46,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "ell_over_a": 0.1,
+      "checks_evaluated": 46,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

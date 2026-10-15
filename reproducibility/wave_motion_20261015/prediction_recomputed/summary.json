@@ -1,0 +1,163 @@
+{
+  "implementation": "New portable postprocessing implementation authored 2026-10-15",
+  "public_input_commit": "998833149606a0a9324d133f324eb3ceae6f78b2",
+  "input_collection": "data/wave_motion_20261009_v1",
+  "input_files": {
+    "baseline": "assets/item-032.json",
+    "analytic_thickness_slopes": "assets/item-039.json",
+    "frequencies_1_and_3_percent": "assets/item-043.csv",
+    "thickness_frequencies_2_percent": "assets/item-015.csv"
+  },
+  "scope": "Fixed X, bands 4/5, circular reference, inverse MCST-TSDT N15; a=75 um, h=6 um, r/a=0.3, epoxy ell=1 um",
+  "interpretation": "Post-hoc analytic-slope evaluation of existing frequencies; no new prospective freeze, eigensolve, or full-IBZ search",
+  "quality_check_scope": "Checks existing published MAC/residual/seed records, without recomputing eigenvectors or solver diagnostics",
+  "slope_sources": {
+    "h": "item-039.json bands[].S_h_Laurent",
+    "ell": "item-032.json R_mc_f4_f5"
+  },
+  "calibration_fractional_changes": [
+    -0.01,
+    0.01
+  ],
+  "excluded_from_fit": "All +/-2% and +/-3% frequencies",
+  "historical_prediction_columns": "Not used",
+  "units": {
+    "frequency": "MHz",
+    "J": "percent",
+    "delta_J_and_J_error": "percentage points (pp)",
+    "S_T_and_log_frequency_changes": "dimensionless",
+    "relative_errors": "percent"
+  },
+  "formulas": {
+    "x": "ln(1+fractional_change)",
+    "y": "ln(f_actual/f0)",
+    "S_h": "kappa_3-kappa_minus1-eta_3",
+    "T": "2*sum(x_i^2*(y_i-S*x_i))/sum(x_i^4), i=-1%,+1%",
+    "first_frequency": "f0*exp(S*x)",
+    "second_frequency": "f0*exp(S*x+T*x^2/2)",
+    "J_percent": "200*(f5-f4)/(f5+f4)",
+    "delta_J_pp": "J-J0",
+    "signed_J_error_pp": "J_prediction-J_actual",
+    "relative_increment_error_percent": "100*abs(J_prediction-J_actual)/abs(J_actual-J0)",
+    "log_frequency_error": "ln(f_prediction/f_actual)",
+    "relative_frequency_error_percent": "100*abs(f_prediction-f_actual)/f_actual"
+  },
+  "baseline_f4_f5_MHz": [
+    5.736427842197187,
+    7.603394218073132
+  ],
+  "baseline_J_percent": 27.990873752900914,
+  "coefficients": [
+    {
+      "parameter": "ell",
+      "band": 4,
+      "S_dimensionless": 0.09301614360108823,
+      "T_dimensionless": 0.16294653229001838
+    },
+    {
+      "parameter": "ell",
+      "band": 5,
+      "S_dimensionless": 0.07378525793476576,
+      "T_dimensionless": 0.1247263544462676
+    },
+    {
+      "parameter": "h",
+      "band": 4,
+      "S_dimensionless": 0.7433946444134027,
+      "T_dimensionless": -0.10465131079990844
+    },
+    {
+      "parameter": "h",
+      "band": 5,
+      "S_dimensionless": 0.7458704855165481,
+      "T_dimensionless": -0.18384517355953464
+    }
+  ],
+  "summaries": {
+    "ell": {
+      "calibration_1pct": {
+        "first": {
+          "max_abs_J_error_pp": 0.00018804242789016712,
+          "max_relative_increment_error_percent": 1.0023150026497967,
+          "max_abs_log_frequency_error": 8.188971738068489e-06,
+          "max_relative_frequency_error_percent": 0.000818893820848168,
+          "all_directions_agree": true
+        },
+        "second": {
+          "max_abs_J_error_pp": 1.2254706476255706e-06,
+          "max_relative_increment_error_percent": 0.0064677026512606406,
+          "max_abs_log_frequency_error": 4.140166084627515e-08,
+          "max_relative_frequency_error_percent": 4.140165994306488e-06,
+          "all_directions_agree": true
+        }
+      },
+      "evaluation_3pct": {
+        "first": {
+          "max_abs_J_error_pp": 0.0017045050069448564,
+          "max_relative_increment_error_percent": 3.058968753468375,
+          "max_abs_log_frequency_error": 7.444644496823345e-05,
+          "max_relative_frequency_error_percent": 0.00744436739004648,
+          "all_directions_agree": true
+        },
+        "second": {
+          "max_abs_J_error_pp": 3.3591025040635714e-05,
+          "max_relative_increment_error_percent": 0.0602837161390648,
+          "max_abs_log_frequency_error": 1.1414629701542692e-06,
+          "max_relative_frequency_error_percent": 0.00011414636216888181,
+          "all_directions_agree": true
+        }
+      }
+    },
+    "h": {
+      "calibration_1pct": {
+        "first": {
+          "max_abs_J_error_pp": 0.0003936989612220998,
+          "max_relative_increment_error_percent": 18.83218652913254,
+          "max_abs_log_frequency_error": 9.21673734776469e-06,
+          "max_relative_frequency_error_percent": 0.0009216779822089466,
+          "all_directions_agree": true
+        },
+        "second": {
+          "max_abs_J_error_pp": 1.5976921829974344e-06,
+          "max_relative_increment_error_percent": 0.07860654275903153,
+          "max_abs_log_frequency_error": 8.597010689054585e-08,
+          "max_relative_frequency_error_percent": 8.597011069303991e-06,
+          "all_directions_agree": true
+        }
+      },
+      "evaluation_2pct": {
+        "first": {
+          "max_abs_J_error_pp": 0.001597404260390789,
+          "max_relative_increment_error_percent": 45.7989617190758,
+          "max_abs_log_frequency_error": 3.695527259067481e-05,
+          "max_relative_frequency_error_percent": 0.0036955955445115447,
+          "all_directions_agree": true
+        },
+        "second": {
+          "max_abs_J_error_pp": 1.2900888759048712e-05,
+          "max_relative_increment_error_percent": 0.37689789363884896,
+          "max_abs_log_frequency_error": 6.944595614087751e-07,
+          "max_relative_frequency_error_percent": 6.944593203259324e-05,
+          "all_directions_agree": true
+        }
+      },
+      "evaluation_3pct": {
+        "first": {
+          "max_abs_J_error_pp": 0.0036461980782540593,
+          "max_relative_increment_error_percent": 87.62113574527342,
+          "max_abs_log_frequency_error": 8.334251106871201e-05,
+          "max_relative_frequency_error_percent": 0.008334598415220584,
+          "all_directions_agree": true
+        },
+        "second": {
+          "max_abs_J_error_pp": 4.444952741877728e-05,
+          "max_relative_increment_error_percent": 1.0753028354617764,
+          "max_abs_log_frequency_error": 2.393261795991655e-06,
+          "max_relative_frequency_error_percent": 0.00023932589321567585,
+          "all_directions_agree": true
+        }
+      }
+    }
+  },
+  "row_count": 10
+}

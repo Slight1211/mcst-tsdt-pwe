@@ -1,0 +1,5 @@
+element_type,topological_dimension,actual_count
+hex,3,216
+quad,2,216
+edg,1,72
+vtx,0,8

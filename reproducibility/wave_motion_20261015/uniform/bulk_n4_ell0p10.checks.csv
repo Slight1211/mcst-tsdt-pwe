@@ -1,0 +1,2 @@
+n,ell_over_a,expected_hex_elements,actual_hex_elements,other_volume_elements,solution_vector_length,integration_order,frequency_tolerance,mcst_increment_tolerance,polarization_tolerance,transverse_constraint_tolerance,longitudinal_scaled_tolerance,transverse_split,transverse_split_tolerance,transverse_amplitude_overlap_squared,transverse_amplitude_gram_condition,transverse_amplitude_gram_condition_tolerance,minimum_g0_projection_fraction,passed
+4,0.1,64,64,0,4749,8,1.0E-4,0.05,0.01,0.02,0.01,2.4265612331064875E-7,2.0E-4,2.461059463397258E-16,1.0000000313755288,2.0,0.99,true
