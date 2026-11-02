@@ -4,6 +4,25 @@ Research code for flexural-wave dispersion in a periodic steel–epoxy plate, us
 
 The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
 
+## Scientific Reports update — 2 November 2026
+
+The latest research-code addendum is in
+[`reproducibility/scientific_reports_20261102`](reproducibility/scientific_reports_20261102/README.md).
+It adds the subsequent length-scale optimization, N=21 reoptimization,
+selected-shape three-dimensional comparisons, classical free-surface benchmark,
+and saved-data verification sources. Its README distinguishes exact historical
+sources from portable saved-data tools and explains the required data layout.
+
+The numerical data and archived computational sources are published in Zenodo:
+**[10.5281/zenodo.23888401](https://doi.org/10.5281/zenodo.23888401)**
+(version 1.0.0). That immutable data release includes the original executed-source
+records and the earlier GitHub snapshot `6d51e70`; later GitHub tools have their own
+commit history. Large numerical outputs remain in Zenodo.
+
+Original source code is available under MIT; original data and documentation under
+CC BY 4.0. See [LICENSE](LICENSE) and [LICENSES.md](LICENSES.md). No commercial
+COMSOL software or licence is included.
+
 ## Quick check
 
 Use Python 3.12 with the packages listed in `requirements.txt`. The versions are those installed in the original research environment, not a claim of compatibility with all package versions.
@@ -101,4 +120,4 @@ The scientific plotting sources are provided, but the final manuscript's font-co
 
 `PUBLIC_RELEASE_CHECKS.json` records the checks performed on the initial source release. The addendum README describes its separate saved-data checks. Full N=15/N=21 scans, optimization, COMSOL calculations and saved-data audits are **not rerun during packaging**. There is no continuous-error-bound claim from finite mesh differences.
 
-No software license has been selected for this release. No third-party reference implementation or font files are included. Citation metadata will be updated when the associated paper has a final bibliographic record.
+The original source code is licensed under MIT, and original data/documentation under CC BY 4.0, following the rights-holder authorization for the 2 November 2026 deposition. See `LICENSES.md` for scope. Historical release notes preserve the earlier unlicensed state. No third-party reference implementation or font files are included. The Zenodo record is a data/code citation; it is not a journal article DOI.

@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "6d51e70f72e879ba2c13a3dcf06588396fe9e1bf",
+  "archived_data_doi": "10.5281/zenodo.23888401",
+  "legacy_kernel_checks": [
+    {
+      "command": "py -3.14 -X utf8 checks/smoke_check.py",
+      "status": "PASS",
+      "kernel": "current",
+      "sources_parsed_at_check": 88,
+      "full_inverse_relative_error": 1.2870252917861499e-15,
+      "direct_generalized_relative_error": 3.396175141930043e-16
+    },
+    {
+      "command": "py -3.14 -X utf8 checks/smoke_check.py --kernel frozen",
+      "status": "PASS",
+      "kernel": "frozen",
+      "sources_parsed_at_check": 88,
+      "full_inverse_relative_error": 1.2870252917861499e-15,
+      "direct_generalized_relative_error": 3.396175141930043e-16
+    },
+    {
+      "command": "py -3.14 -X utf8 examples/circular_point.py",
+      "status": "PASS_SMALL_BASIS_EXAMPLE",
+      "N": 2,
+      "wavevector": "X",
+      "FSDT_max_algebraic_residual": 6.061908605952795e-11,
+      "TSDT_max_algebraic_residual": 7.26170673658451e-11,
+      "convergence": "NOT_TESTED"
+    }
+  ],
+  "addendum_saved_data": {
+    "command": "python reproducibility/scientific_reports_20261102/verify_saved_data.py --archive /path/to/Supplementary_Data_v19.zip",
+    "status": "PASS_SAVED_DATA_ARITHMETIC_AND_BINDINGS",
+    "verified_payload_members": 966,
+    "verified_quantities": [
+      "ell1 initial and optimized gaps",
+      "ell2 redesigned gap",
+      "five exploratory length-scale states",
+      "N15/N21 shape-order two-by-two check",
+      "endpoint shape/material two-by-two check",
+      "all 29 Figure6 records and source-cell bindings"
+    ]
+  },
+  "fresh_workspace_bootstrap": {
+    "status": "PREPARED_FRESH_WORKSPACE_NO_SOLVES",
+    "distinct_imported_payload_paths": 713
+  },
+  "source_distribution": {
+    "exact_original_sources": 88,
+    "numerical_source_changes": 0,
+    "legacy_public_research_tree_overwritten": false
+  },
+  "full_production_scans": "NOT_RUN",
+  "new_optimization_runs": 0,
+  "new_COMSOL_runs": 0,
+  "scope": "Software and saved-data checks; these do not extend scientific convergence or physical validation.",
+  "human_verified": false,
+  "submission_ready": false
+}

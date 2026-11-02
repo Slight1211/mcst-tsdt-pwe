@@ -1,3 +1,21 @@
+# Public code synchronization — 2026-11-02
+
+The Scientific Reports addendum supplies subsequent research drivers, exact
+scientific source dependencies, and portable checks of the deposited numerical
+records. It is additive: the earlier public research tree and its portability
+adaptations are retained. Each new source file is mapped to its local origin and
+checksum by the addendum manifest. New saved-data tools are identified separately
+from original executed sources.
+
+Zenodo version 1.0.0 is published at
+https://doi.org/10.5281/zenodo.23888401. The previously selected MIT code and
+CC BY 4.0 data/documentation licences are now also stated in this repository.
+This synchronization does not rerun production optimization or COMSOL studies.
+
+The following initial-release notes are retained as historical provenance.
+
+---
+
 # Public source release — 2026-10-06
 
 The release preserves the relative source layout of the steel–epoxy MCST/PWE research. It does not publish the complete working directory or an executed-results archive.

@@ -25,3 +25,7 @@ results/
 output/
 tmp/
 # The two frozen kernels under runs/.../sources/ are tracked source files.
+
+# Extracted Zenodo data and newly generated reproduction workspaces
+reproduction_workspace/
+*.zip
