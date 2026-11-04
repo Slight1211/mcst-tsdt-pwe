@@ -1,0 +1,1812 @@
+{
+  "status": "PREPARED_EXACT_SOURCE_ADDITIVE_ADDENDUM",
+  "manuscript_revision": "v61",
+  "created_utc": "2026-11-04T23:43:51+00:00",
+  "base_repository": "Slight1211/mcst-tsdt-pwe",
+  "base_branch": "main",
+  "last_locally_recorded_public_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d",
+  "current_source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+  "current_source_archive_sha256": "79b8cca7dad260cd84be9bcb752221ec83fc79c3b3d80a5c965a6fae57dad8d0",
+  "source_archive_publication_status": "Local prepared Data9; not uploaded or published by this staging task.",
+  "zenodo_1_1_0_published": false,
+  "historical_zenodo_record": "https://zenodo.org/records/23888401",
+  "source_file_count": 110,
+  "python_sources_parsed": 97,
+  "data9_selected_members": 59,
+  "prior_public_dependency_files": 88,
+  "overlap_source_bytes_identical": 37,
+  "total_workspace_bytes": 888808,
+  "new_scientific_computations": 0,
+  "new_COMSOL_runs": 0,
+  "manuscript_or_private_review_files": 0,
+  "strong_credential_marker_hits": 0,
+  "personal_Windows_user_path_hits": 0,
+  "author_style_exception": "workspace/FABLE_REVIEW/style/mcst_paper.mplstyle only; required by unchanged figure_style_v31.py.",
+  "scope": "Exact source copies, 10 portable starting-coordinate JSON files, and one author-owned style. Numerical archives and run-specific generated model sources remain separately distributed.",
+  "files": [
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/check_phase_prediction.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/check_phase_prediction.py",
+      "bytes": 2951,
+      "sha256": "77c47c7e4f5bfee69da831ea0be5a66569e422cf936a9138efb18bc402103222",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/check_phase_prediction.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/check_phase_prediction.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/check_t03_final.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/check_t03_final.py",
+      "bytes": 4894,
+      "sha256": "77ec0442c03834153a6d68b224f149d8e9b9b4857759b519954fef25b75d19d5",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/check_t03_final.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/check_t03_final.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/msse_core.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/msse_core.py",
+      "bytes": 1990,
+      "sha256": "338e41d56d089b13288018eecbd87b8dcaaecf0994682bd106d14d9e1c345356",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/msse_core.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/msse_core.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/plot_t03_audit.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/plot_t03_audit.py",
+      "bytes": 1275,
+      "sha256": "831851da5a10430a3f9f86d65c10b3a203badb9e39a23a470b7d0c9165fdc019",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/plot_t03_audit.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/plot_t03_audit.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/refine_two_phase.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/refine_two_phase.py",
+      "bytes": 3840,
+      "sha256": "cdcbcba268a8d77c63dc0d4b7e653cb0d8db0fba03ce9baffbc01648a7ee4d48",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/refine_two_phase.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/refine_two_phase.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/report_t03_t04.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/report_t03_t04.py",
+      "bytes": 2979,
+      "sha256": "4bb9dfca9b93aa1e5f8147b8bbad2d11e75fe8a66107550e108c159ca0835693",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/report_t03_t04.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/report_t03_t04.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/run_two_phase.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/run_two_phase.py",
+      "bytes": 6377,
+      "sha256": "04ff19919f570d210e7966ddf054ae8dbdb59f59493269ac418ad5f60253ac1a",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/run_two_phase.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/run_two_phase.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/run_uniform.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/run_uniform.py",
+      "bytes": 7140,
+      "sha256": "f081b38a2430949e2921f1b2605d740bab4ba496535686cb7591dfa7d1108285",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/run_uniform.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/run_uniform.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/msse_20260919/python/two_phase.py",
+      "workspace_relative_path": "04_code/research/msse_20260919/python/two_phase.py",
+      "bytes": 4951,
+      "sha256": "41ac4d0b0e0549c4e49cdfc38d8bc960f58df2dfa966eae4e0dc6018ef66cf51",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/msse_20260919/python/two_phase.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/msse_20260919/python/two_phase.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/run_node_shape_pilot.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/run_node_shape_pilot.py",
+      "bytes": 13579,
+      "sha256": "5daccb8c985e582632468e9da1fa4d13b2e30e0f6c2925edd383296c2458fb02",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/run_node_shape_pilot.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/run_node_shape_pilot.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/acoustics.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/acoustics.py",
+      "bytes": 4343,
+      "sha256": "b4233c23e2f970ec24a9abdff89e1ba2b1ae5c20845644500c9d8380a7e7d276",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/acoustics.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/acoustics.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/classical_bending.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/classical_bending.py",
+      "bytes": 1599,
+      "sha256": "70043528883bbc0649d416a2317b05010a5850b726c1f2c57fcb60a99cd47658",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/classical_bending.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/classical_bending.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/classical_solid_fem.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/classical_solid_fem.py",
+      "bytes": 5083,
+      "sha256": "aa36e9b56c80fd14d6d806bfcb1e2af866b25a595deaf7c391e60ca655a97f20",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/classical_solid_fem.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/classical_solid_fem.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/cutoff_limit.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/cutoff_limit.py",
+      "bytes": 2308,
+      "sha256": "e4a3f52b021008a1a247e3133df1100628a094ffe393bfedb42d7f98c629eb73",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/cutoff_limit.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/cutoff_limit.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/elastic_layer.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/elastic_layer.py",
+      "bytes": 1879,
+      "sha256": "5689ec230e0f00c29c5d88c934dbded59d3e7c2fd7898008f4d8dd0a6f7dfcd8",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/elastic_layer.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/elastic_layer.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/feasible_sqp.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/feasible_sqp.py",
+      "bytes": 7477,
+      "sha256": "e22d8fe50022e1661d464fa42ab8c3ec66d781816ab7ad5995eb24cbf4572c49",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/feasible_sqp.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/feasible_sqp.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/frequency_polynomial.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/frequency_polynomial.py",
+      "bytes": 1689,
+      "sha256": "08319bc14d840ac17c97839228a37e7d334531be79c4da486bd4be70960bb498",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/frequency_polynomial.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/frequency_polynomial.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/geometry_coefficients.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/geometry_coefficients.py",
+      "bytes": 432,
+      "sha256": "414de69ebfec8a67d30ac025f93c3e08fc337646f792bc5eea001dc8f7c42e86",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/geometry_coefficients.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/geometry_coefficients.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/hermite_layer.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/hermite_layer.py",
+      "bytes": 2735,
+      "sha256": "f1882bee1c8a19d6bde713dae3ef3fd84f04c593045d4f24ffc851ca34738b06",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/hermite_layer.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/hermite_layer.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/inverse_circle_bending.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/inverse_circle_bending.py",
+      "bytes": 4167,
+      "sha256": "93bdc602ee43556e76271bb435cf499a8e662d30d4285d231a8e5030bf9aaadb",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/inverse_circle_bending.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/inverse_circle_bending.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/node_classic_dense.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/node_classic_dense.py",
+      "bytes": 2029,
+      "sha256": "7e36a54f415314bdb5c775026692df575500cbf255c26e5efcd49e618a3b5fc1",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/node_classic_dense.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/node_classic_dense.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/node_mcst_dense.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/node_mcst_dense.py",
+      "bytes": 2204,
+      "sha256": "fd7b91478ac1c21f02b13a0b671f499c18ea2efe1e648cc330914aeec308004a",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/node_mcst_dense.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/node_mcst_dense.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/node_polar_free.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/node_polar_free.py",
+      "bytes": 3464,
+      "sha256": "5038908118eef36c29030eef7055eef111272db0241595195a807326067f29de",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/node_polar_free.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/node_polar_free.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/node_shape_bending.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/node_shape_bending.py",
+      "bytes": 8260,
+      "sha256": "2658d01d7f2d5da4d89e11ec611ce68dcf334e7e0076c247c83944b2a8b10375",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/node_shape_bending.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/node_shape_bending.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/node_shape_sensitivity.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/node_shape_sensitivity.py",
+      "bytes": 4354,
+      "sha256": "8df177786a52f26dc5e740997acd9d0bf62099ce480e3cfbc5aa06a5931ef06d",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/node_shape_sensitivity.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/node_shape_sensitivity.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/real_circle_bending.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/real_circle_bending.py",
+      "bytes": 2883,
+      "sha256": "39055b52bd76cabf096a58285bc58f5f9ba1d550d5277f9899e638aaba255567",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/real_circle_bending.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/real_circle_bending.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/solid_acoustic_fem.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/solid_acoustic_fem.py",
+      "bytes": 2140,
+      "sha256": "5ad6042bec649001a58179c447da1c5ff49dd700a0225370a63fbdfeb05791f7",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/solid_acoustic_fem.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/solid_acoustic_fem.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/solid_scattering_matrix.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/solid_scattering_matrix.py",
+      "bytes": 1707,
+      "sha256": "64bdd0e09b09519fd90a835346be69a4be4b5286f96f2a1330b6e400beccc97c",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/solid_scattering_matrix.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/solid_scattering_matrix.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/surface.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/surface.py",
+      "bytes": 1376,
+      "sha256": "255d8a709d4323edac48641066ceaa982dfb1ac890cbc473d6ef7faa81dc971e",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/surface.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/surface.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/04_code/research/wavemotion_surface_20260920/src/symmetric_bending.py",
+      "workspace_relative_path": "04_code/research/wavemotion_surface_20260920/src/symmetric_bending.py",
+      "bytes": 2639,
+      "sha256": "9f0fdb41e0724e06bc0b29205854cf394d9845e0ca7fac6946c84feae320703a",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/04_code/research/wavemotion_surface_20260920/src/symmetric_bending.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "04_code/research/wavemotion_surface_20260920/src/symmetric_bending.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/05_validation/V01_20261030/source/ValidateShapeMcst.java",
+      "workspace_relative_path": "05_validation/V01_20261030/source/ValidateShapeMcst.java",
+      "bytes": 42100,
+      "sha256": "6308c777338e4b1030dbdf66d9704f83294c314118667f325ad8f3ec73e270ee",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/05_validation/V01_20261030/source/ValidateShapeMcst.java",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/05_validation/V01_ell2_20261031_v8/source/ValidateShapeMcst.java",
+      "workspace_relative_path": "05_validation/V01_ell2_20261031_v8/source/ValidateShapeMcst.java",
+      "bytes": 42100,
+      "sha256": "6308c777338e4b1030dbdf66d9704f83294c314118667f325ad8f3ec73e270ee",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/05_validation/V01_ell2_20261031_v8/source/ValidateShapeMcst.java",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/05_validation/V07_ell2_reoptimization_20261030/source/node_shape_sensitivity_v7.py",
+      "workspace_relative_path": "05_validation/V07_ell2_reoptimization_20261030/source/node_shape_sensitivity_v7.py",
+      "bytes": 4545,
+      "sha256": "6dcc7790886bf37089f0e1171522eb4f401d27fbbb410b835eb1ff1c701bad5c",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/05_validation/V07_ell2_reoptimization_20261030/source/node_shape_sensitivity_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "05_validation/V07_ell2_reoptimization_20261030/source/node_shape_sensitivity_v7.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/FABLE_REVIEW/style/mcst_paper.mplstyle",
+      "workspace_relative_path": "FABLE_REVIEW/style/mcst_paper.mplstyle",
+      "bytes": 1542,
+      "sha256": "ae3fe9dcfbb916d8982faa21f3f85cea88b4e516e14224a46c436b1278a87f21",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "FABLE_REVIEW/style/mcst_paper.mplstyle",
+          "role": "author_plot_style"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_0.5_old_best.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_0.5_old_best.json",
+      "bytes": 259,
+      "sha256": "50743147d110de9f026c8132427a1b6319ad3fd3ccc1f3ca84cff1fdd2cd3a33",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_0.5_old_best.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_0.5_regular.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_0.5_regular.json",
+      "bytes": 178,
+      "sha256": "bd6b31b9ba6849155a4d18670fa5890f8da0c9baf867390f8690c5c041b0edbf",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_0.5_regular.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_0_old_best.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_0_old_best.json",
+      "bytes": 244,
+      "sha256": "9827e4e7ad0b8d17b73c287460ffe8032bbfd70f2b8746feff4e963e487ea7c7",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_0_old_best.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_0_regular.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_0_regular.json",
+      "bytes": 178,
+      "sha256": "bd6b31b9ba6849155a4d18670fa5890f8da0c9baf867390f8690c5c041b0edbf",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_0_regular.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_1_regular.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_1_regular.json",
+      "bytes": 178,
+      "sha256": "bd6b31b9ba6849155a4d18670fa5890f8da0c9baf867390f8690c5c041b0edbf",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_1_regular.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_1_warm.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_1_warm.json",
+      "bytes": 272,
+      "sha256": "23d3ef1095b8ecff4bd3c0ca3e9437bab492e1cf67c6db9ff338e8e972a75135",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_1_warm.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_2_regular.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_2_regular.json",
+      "bytes": 178,
+      "sha256": "bd6b31b9ba6849155a4d18670fa5890f8da0c9baf867390f8690c5c041b0edbf",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_2_regular.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_2_warm.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_2_warm.json",
+      "bytes": 273,
+      "sha256": "b5da7ab75f05ae143ad65b6911e61e2cad12c7f20fb16050f5bfa523c35c87bd",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_2_warm.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_5_regular.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_5_regular.json",
+      "bytes": 178,
+      "sha256": "bd6b31b9ba6849155a4d18670fa5890f8da0c9baf867390f8690c5c041b0edbf",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_5_regular.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/portable_seed_inputs/ell_5_warm.json",
+      "workspace_relative_path": "portable_seed_inputs/ell_5_warm.json",
+      "bytes": 281,
+      "sha256": "b3d1ab2ce794d7a99adc47c124a88ff93fa432d57c815a1e25addac5366837d4",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "portable_seed_inputs/ell_5_warm.json",
+          "role": "portable_initial_coordinates"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/analyze_edge_switch_v7.py",
+      "workspace_relative_path": "scripts/analyze_edge_switch_v7.py",
+      "bytes": 3394,
+      "sha256": "335af7c234425c7ca7532bd9205d8209fa9512761d29aeb0d9cd4924e3e2e665",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/analyze_edge_switch_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/analyze_ell2_3d_v8.py",
+      "workspace_relative_path": "scripts/analyze_ell2_3d_v8.py",
+      "bytes": 11972,
+      "sha256": "223e6799df6dcbf348a6cf39cb173e44d5df81ba0565cfb1f20f6e28436bb056",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/analyze_ell2_3d_v8.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/analyze_free_plate_v7.py",
+      "workspace_relative_path": "scripts/analyze_free_plate_v7.py",
+      "bytes": 5534,
+      "sha256": "8def8e8a3ef7170269e163f187bddbb3d12929551e084e2ccb4583ed3ec5969b",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/analyze_free_plate_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/analyze_uniform_b024_solid_v47.py",
+      "workspace_relative_path": "scripts/analyze_uniform_b024_solid_v47.py",
+      "bytes": 10558,
+      "sha256": "a027cbd3c364c847ec279ae6b5277db516319f95433e5bb0cc3d32b1ebcc1994",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/analyze_uniform_b024_solid_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/analyze_v01.py",
+      "workspace_relative_path": "scripts/analyze_v01.py",
+      "bytes": 9129,
+      "sha256": "2c90b29a96a03ec90126624aa803c835964f5f39518db55257ddc2aed81411d9",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/analyze_v01.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/analyze_v01.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_ell0_N21_reoptimization.py",
+      "workspace_relative_path": "scripts/audit_ell0_N21_reoptimization.py",
+      "bytes": 32130,
+      "sha256": "3540fddf37d44c47f37c208a76cef3ec2ae3e198b74bb11a6ad3abc1b2c2d825",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_ell0_N21_reoptimization.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_ell0_multistart.py",
+      "workspace_relative_path": "scripts/audit_ell0_multistart.py",
+      "bytes": 18091,
+      "sha256": "349b66cff3ce72e144dc05c9c6e7445dc3a5614ec47f617ae05182f18d60f783",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_ell0_multistart.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_ell3_trial_outputs.py",
+      "workspace_relative_path": "scripts/audit_ell3_trial_outputs.py",
+      "bytes": 10377,
+      "sha256": "9f9fd73c3ed8ce0f0bdfc36e4cfe53d467379cdc1ae846642c2b05bf9e3a0175",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_ell3_trial_outputs.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_frozen_lengthscale_trial.py",
+      "workspace_relative_path": "scripts/audit_frozen_lengthscale_trial.py",
+      "bytes": 4518,
+      "sha256": "df122484b5ab06df917602bc8f1c402239df2d7145a64d15f1200a6a58f829b6",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_frozen_lengthscale_trial.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_gap_closure_case.py",
+      "workspace_relative_path": "scripts/audit_gap_closure_case.py",
+      "bytes": 12702,
+      "sha256": "1f6d0339e6b65d0ebc8495fa4293ed8ea544403f00c46de7f9b296c5a66b642e",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_gap_closure_case.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_lengthscale_trial_outputs.py",
+      "workspace_relative_path": "scripts/audit_lengthscale_trial_outputs.py",
+      "bytes": 9969,
+      "sha256": "6f04183baef0f7deda54f8f4c21bc80c1065a114d8896df096986db68e74e610",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_lengthscale_trial_outputs.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/audit_shape_lengthscale_cross_v18.py",
+      "workspace_relative_path": "scripts/audit_shape_lengthscale_cross_v18.py",
+      "bytes": 5582,
+      "sha256": "4788b1fa154957b7a66bd38c0c4d22e76597137e9013f34873e1a7c2de59d854",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/audit_shape_lengthscale_cross_v18.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_ell0_order_cross.py",
+      "workspace_relative_path": "scripts/check_ell0_order_cross.py",
+      "bytes": 17319,
+      "sha256": "162a5745a534dc69d4f448b38b041b83d0524a3cf350b03f368fe53a56bcd98e",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/check_ell0_order_cross.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_gap_closure_endpoints.py",
+      "workspace_relative_path": "scripts/check_gap_closure_endpoints.py",
+      "bytes": 18679,
+      "sha256": "5b4224ee9629a065152d0bbbf1dc806dbbc30d70cd6e964208aec14002aae1f7",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/check_gap_closure_endpoints.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_lengthscale_modal_energy.py",
+      "workspace_relative_path": "scripts/check_lengthscale_modal_energy.py",
+      "bytes": 17432,
+      "sha256": "0240bb031439af2fbb3fe8eb4accc4a68e4f95572f8d2a6fab8998ce7a933177",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/check_lengthscale_modal_energy.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_lengthscale_trial_terminal.py",
+      "workspace_relative_path": "scripts/check_lengthscale_trial_terminal.py",
+      "bytes": 9175,
+      "sha256": "db13ee10ca74fc1ee93d95b6d5e3322c363f81da82e7a8d3daaa877689d1acd3",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/check_lengthscale_trial_terminal.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_shape_lengthscale_cross_v18.py",
+      "workspace_relative_path": "scripts/check_shape_lengthscale_cross_v18.py",
+      "bytes": 10664,
+      "sha256": "02c147a18318fd1e166ba73c99dd0c134101ec0bb1dc12b87bcfe34faba02a38",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/check_shape_lengthscale_cross_v18.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/check_uniform_b024_pwe_v47.py",
+      "workspace_relative_path": "scripts/check_uniform_b024_pwe_v47.py",
+      "bytes": 7072,
+      "sha256": "13f71abf3fab936ef62acb0c53087806d3e2066bcdff092570dea57f2f9b6fa2",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/check_uniform_b024_pwe_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/collect_uniform_b024_results_v47.py",
+      "workspace_relative_path": "scripts/collect_uniform_b024_results_v47.py",
+      "bytes": 7330,
+      "sha256": "2aacd3dc5e7fe5212658378d662c1647ce33e68b87144d789c08c37d98e46de4",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/collect_uniform_b024_results_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/continue_ell2_3d_v8.py",
+      "workspace_relative_path": "scripts/continue_ell2_3d_v8.py",
+      "bytes": 735,
+      "sha256": "f06c79856a19b12340f642199daced959d52d33b136769afd4c33d9543860847",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/continue_ell2_3d_v8.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/ell0_resolution_base.py",
+      "workspace_relative_path": "scripts/ell0_resolution_base.py",
+      "bytes": 2730,
+      "sha256": "1b36d07dec724e1d1c67a99948b91d359895979628d33320926a887d97f06eae",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/ell0_resolution_base.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/ell0_resolution_sensitivity.py",
+      "workspace_relative_path": "scripts/ell0_resolution_sensitivity.py",
+      "bytes": 4940,
+      "sha256": "d6aff8e884fdd19ef058d1908c5cd5df4ed6588a0253c89b827301c4794b3dd9",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/ell0_resolution_sensitivity.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/figure_style_v31.py",
+      "workspace_relative_path": "scripts/figure_style_v31.py",
+      "bytes": 4476,
+      "sha256": "c4bc12ef47a802a703fbf9a4f7bc43439a1355c0057bd795ce6a072c76f8518b",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/figure_style_v31.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_compact_design_v40.py",
+      "workspace_relative_path": "scripts/plot_compact_design_v40.py",
+      "bytes": 14187,
+      "sha256": "cddb7632bcbf092f6b882e897c90d7ff3c6df88f4d98ff6c7e4c063558b57616",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/plot_compact_design_v40.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_design_story_v19.py",
+      "workspace_relative_path": "scripts/plot_design_story_v19.py",
+      "bytes": 13420,
+      "sha256": "26bf68792c9856b2a9b6a43401b4a2e6c8429bd3d2b3bb8a8b901f9e6c6b492b",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_design_story_v19.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_ell0_initial_seeds.py",
+      "workspace_relative_path": "scripts/plot_ell0_initial_seeds.py",
+      "bytes": 6812,
+      "sha256": "46fc4d384241fd6b7a413a32eb0eaf6b2c8a770894fe8188a9db770a124fa52e",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_ell0_initial_seeds.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_ell0_multistart.py",
+      "workspace_relative_path": "scripts/plot_ell0_multistart.py",
+      "bytes": 33099,
+      "sha256": "27da5e240b44ad9246301718fba27c9e73c53983f9f9e743a9bc4851bb138da3",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_ell0_multistart.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_ell0_order_comparison.py",
+      "workspace_relative_path": "scripts/plot_ell0_order_comparison.py",
+      "bytes": 33036,
+      "sha256": "8f53cf452553b960b613b86f0d6a6ab4b39a9bfd065b5b046645d994685bb2f9",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_ell0_order_comparison.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_ell2_3d_v8.py",
+      "workspace_relative_path": "scripts/plot_ell2_3d_v8.py",
+      "bytes": 7738,
+      "sha256": "e018ae606e89120c62a087909b5e4dd7f946107ab604283ca2bdcaa7768e2388",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_ell2_3d_v8.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_ell3_trial.py",
+      "workspace_relative_path": "scripts/plot_ell3_trial.py",
+      "bytes": 10440,
+      "sha256": "ca3f6b341db799f83e3c590f6b8dc8a3be3336d3302cb36be27324f4951b5e82",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_ell3_trial.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_evidence_v7.py",
+      "workspace_relative_path": "scripts/plot_evidence_v7.py",
+      "bytes": 7023,
+      "sha256": "0260ea7b7aa4c4cbfdfe877e5fe6645124733645813a6606058b834b28d97f74",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_evidence_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_gap_closure_scan.py",
+      "workspace_relative_path": "scripts/plot_gap_closure_scan.py",
+      "bytes": 20409,
+      "sha256": "14661401474503e9d596445e916a3085476d46d143342be3c004c6782a23b0c0",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_gap_closure_scan.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_lengthscale10_trial.py",
+      "workspace_relative_path": "scripts/plot_lengthscale10_trial.py",
+      "bytes": 8405,
+      "sha256": "d8850408507c6bdf12ee977bc638e0fcf444a6d1572f3e5abc5435f012ff5e6e",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_lengthscale10_trial.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_selected_lengthscale_shapes.py",
+      "workspace_relative_path": "scripts/plot_selected_lengthscale_shapes.py",
+      "bytes": 12573,
+      "sha256": "d269c1dc2a53bc977ad0633d8f8f1d661032230c35dd4061186de84bf7bcd8c1",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_selected_lengthscale_shapes.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_shape_evidence_v18.py",
+      "workspace_relative_path": "scripts/plot_shape_evidence_v18.py",
+      "bytes": 19220,
+      "sha256": "1c590b4fca0c2e5fddd81f4e8c8a7e2399bc7407467821b46710a97694a4009b",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_shape_evidence_v18.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_size_shape_v17.py",
+      "workspace_relative_path": "scripts/plot_size_shape_v17.py",
+      "bytes": 15962,
+      "sha256": "907c4cfb735acfa249fd498e34c171f70c5f1a22a653a7d38bb6250044429d7f",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/plot_size_shape_v17.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/plot_uniform_b024_v47.py",
+      "workspace_relative_path": "scripts/plot_uniform_b024_v47.py",
+      "bytes": 9922,
+      "sha256": "476e7c3b3ef031a72387a6d7e735cdcd5d7873b8fbca60d6d4fe37d82f8a63d9",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/plot_uniform_b024_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/recheck_ell2_N21_v7.py",
+      "workspace_relative_path": "scripts/recheck_ell2_N21_v7.py",
+      "bytes": 3750,
+      "sha256": "0731c44b50cccf3137cff5948d58701c092bfe2c90c7291c3450d27e67e50dfa",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/recheck_ell2_N21_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/recover_ell2_thickness_v8.py",
+      "workspace_relative_path": "scripts/recover_ell2_thickness_v8.py",
+      "bytes": 2215,
+      "sha256": "59b4034f8ef3c0ac0fda7f8565ce2d898a3099a439d4d03b9b8da79b0c80cc61",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/recover_ell2_thickness_v8.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/restart_ell2_optimization_v7.py",
+      "workspace_relative_path": "scripts/restart_ell2_optimization_v7.py",
+      "bytes": 3876,
+      "sha256": "b1a9da958460197838ee6630361912d2341a5f113f0abac5450abb5b82d98085",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/restart_ell2_optimization_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell0_N21_reoptimization.py",
+      "workspace_relative_path": "scripts/run_ell0_N21_reoptimization.py",
+      "bytes": 7562,
+      "sha256": "ab22e76ff31ef4650fb9e7c6d75d72916dbe7a95117c2bcd3b7ca3617741e69b",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell0_N21_reoptimization.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell0_multistart.py",
+      "workspace_relative_path": "scripts/run_ell0_multistart.py",
+      "bytes": 8699,
+      "sha256": "767990ee3e6fb62c579fb7f0df49064471c50b10bf8165eff11e619c29e233a2",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell0_multistart.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell0_multistart_case.py",
+      "workspace_relative_path": "scripts/run_ell0_multistart_case.py",
+      "bytes": 9809,
+      "sha256": "b3d3c0457d4c6015c72bb8f9703fe16dd92efee126f788472557d4fabceb13f5",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell0_multistart_case.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_ell0_multistart_case.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell0_resolution_case.py",
+      "workspace_relative_path": "scripts/run_ell0_resolution_case.py",
+      "bytes": 10028,
+      "sha256": "8c612bb3cf4adfe0bd5e0d53cca59b431f548c1fd331e75fbb92b39b170fa778",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell0_resolution_case.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell2_3d_v8.py",
+      "workspace_relative_path": "scripts/run_ell2_3d_v8.py",
+      "bytes": 9305,
+      "sha256": "a4a91c1b582f5d98147cfcc7dce7b7af290d368060f54d337393e7054919c068",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell2_3d_v8.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_ell2_3d_v8.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell2_optimization_v7.py",
+      "workspace_relative_path": "scripts/run_ell2_optimization_v7.py",
+      "bytes": 11510,
+      "sha256": "104a9e6e33b6eb704a9f0ecf2b392103b6549df82ae1d17a6848e0f1dfab44d7",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell2_optimization_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell3_initial_dense.py",
+      "workspace_relative_path": "scripts/run_ell3_initial_dense.py",
+      "bytes": 5375,
+      "sha256": "3dbf25790601aadb23ee12b5450244c347f122996b128765915767c68f6b1e67",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell3_initial_dense.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell3_optimization.py",
+      "workspace_relative_path": "scripts/run_ell3_optimization.py",
+      "bytes": 14282,
+      "sha256": "b43b9933035e6340de28fe82c4f3a01281b4792b383cec5db5faaf28c3168637",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell3_optimization.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_ell3_warmstart.py",
+      "workspace_relative_path": "scripts/run_ell3_warmstart.py",
+      "bytes": 14846,
+      "sha256": "221a06f09518b5f481e983aba40e6118072792d6fe45d37a858491e69b93f1fb",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_ell3_warmstart.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_free_plate_v7.py",
+      "workspace_relative_path": "scripts/run_free_plate_v7.py",
+      "bytes": 6666,
+      "sha256": "9aadd04cd22d013f350ca15f2f9a610bbc27e89b76a6eaf6e1a222c55b358528",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_free_plate_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_frozen_lengthscale_trial.py",
+      "workspace_relative_path": "scripts/run_frozen_lengthscale_trial.py",
+      "bytes": 10400,
+      "sha256": "bfce4a9b5bb4262d30560f08bcc45f79f23daac78a27bdd14140d871bf2fb71a",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_frozen_lengthscale_trial.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_gap_closure_case.py",
+      "workspace_relative_path": "scripts/run_gap_closure_case.py",
+      "bytes": 9513,
+      "sha256": "d71b59c0c706a247d01962d898eddcec1eb2c070ae5c9c7b4241bd78fc2c4615",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_gap_closure_case.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_gap_closure_case.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_gap_closure_scan.py",
+      "workspace_relative_path": "scripts/run_gap_closure_scan.py",
+      "bytes": 13358,
+      "sha256": "9aa02ffbb61679ac0c4af8f5e1d2346d8792ecbfceff1de67dde02cc1874e9e6",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_gap_closure_scan.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_lengthscale_optimization.py",
+      "workspace_relative_path": "scripts/run_lengthscale_optimization.py",
+      "bytes": 12520,
+      "sha256": "a6883ed6205c9ac460537009cc1223bfc4a5c602d836a5dab3161b4ba86dab36",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_lengthscale_optimization.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_lengthscale_optimization.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_lengthscale_warmstart.py",
+      "workspace_relative_path": "scripts/run_lengthscale_warmstart.py",
+      "bytes": 13122,
+      "sha256": "237edf5e8e442f6a7cdfb65f3d7aaacdb1ed5c35386a8df01fc8adc1a39a0077",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_lengthscale_warmstart.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_low_ell_shape_study.py",
+      "workspace_relative_path": "scripts/run_low_ell_shape_study.py",
+      "bytes": 3974,
+      "sha256": "772a4b53563208b6c594fa63690d1abef01433f94c681717a6daf6a9c05c43a5",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_low_ell_shape_study.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_relaxed_shape_case.py",
+      "workspace_relative_path": "scripts/run_relaxed_shape_case.py",
+      "bytes": 6407,
+      "sha256": "0952f22bfa4773af1fbf4e4a5fe311f4bb829e2ae636e577ffcdc7d35bdd3daa",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_relaxed_shape_case.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_shape_comparison_case.py",
+      "workspace_relative_path": "scripts/run_shape_comparison_case.py",
+      "bytes": 9675,
+      "sha256": "b1eef1223ad9eadfe9b90caca9210a558bfac510851220a7d3e75fa186d17133",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_shape_comparison_case.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        },
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_shape_comparison_case.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_uniform_b024_checks_v47.py",
+      "workspace_relative_path": "scripts/run_uniform_b024_checks_v47.py",
+      "bytes": 4726,
+      "sha256": "b7b4ee085905b94b4b727350c078107916e8cb25a7ef512111c633a446bf78fd",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_uniform_b024_checks_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_uniform_b024_solid_v47.py",
+      "workspace_relative_path": "scripts/run_uniform_b024_solid_v47.py",
+      "bytes": 6988,
+      "sha256": "b6f87731003c279d48b2378ccca7f96b9ab70c0f8c4fc369e8421917e1c23da1",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_uniform_b024_solid_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_uniform_b024_v47.py",
+      "workspace_relative_path": "scripts/run_uniform_b024_v47.py",
+      "bytes": 7042,
+      "sha256": "bc5920f1055a42aa2f4fba85a281f0df3cbd81e9de71c9a83b61808e67c9448f",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/run_uniform_b024_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_v01.py",
+      "workspace_relative_path": "scripts/run_v01.py",
+      "bytes": 5812,
+      "sha256": "5e172c3f67657c60255d1d41be9e31d883f774373e23bc3e1a8a8030096fdaa2",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_v01.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_v01_queue.py",
+      "workspace_relative_path": "scripts/run_v01_queue.py",
+      "bytes": 1754,
+      "sha256": "f1e5bd4b2a7e7f4d34be3505a735a6637054451bb2578dc71abc1efde0ae490b",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_v01_queue.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_v08.py",
+      "workspace_relative_path": "scripts/run_v08.py",
+      "bytes": 8654,
+      "sha256": "18567d542dead696a39320284820480ede19d92a3ab71f56795632fe2663b8d3",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_v08.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/run_v08_ell15_v7.py",
+      "workspace_relative_path": "scripts/run_v08_ell15_v7.py",
+      "bytes": 8762,
+      "sha256": "4f46ad4d667aaf4d1ce5f2c03f89a25488c3d293c9c83c313ebaa0da5bb0e917",
+      "origins": [
+        {
+          "kind": "prior_public_addendum_dependency",
+          "source": "reproducibility/scientific_reports_20261102/workspace/scripts/run_v08_ell15_v7.py",
+          "published_commit": "8b629d2ef11e29a5ca52574c19c6846874526b6d"
+        }
+      ],
+      "scientific_bytes_modified": false
+    },
+    {
+      "path": "workspace/scripts/summarize_uniform_b024_v47.py",
+      "workspace_relative_path": "scripts/summarize_uniform_b024_v47.py",
+      "bytes": 6174,
+      "sha256": "0b859bf8f17e4ac1954de61f8871280c597ddcb80bd77d6a3ddc846d9167ad1a",
+      "origins": [
+        {
+          "kind": "current_Data9_exact_member",
+          "source_archive": "Supplementary_Data_9_uniform_b024_v61.zip",
+          "member": "scripts/summarize_uniform_b024_v47.py",
+          "role": "scientific_source"
+        }
+      ],
+      "scientific_bytes_modified": false
+    }
+  ]
+}

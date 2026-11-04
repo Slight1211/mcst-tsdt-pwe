@@ -1,3 +1,20 @@
+# Uniform-bound numerical-source synchronization — 2026-11-04
+
+The new `reproducibility/scientific_reports_20261104` directory is additive.
+It preserves original numerical source bytes, supplies the 10 exact starting
+coordinate files, and adds portable saved-data verification and extraction tools.
+The fixed b=0.24 protocol supersedes the earlier mixed-protocol five-state
+design comparison for current interpretation. Historical sources and outcomes
+remain available and are not rewritten as new runs.
+
+This source synchronization does not perform new production solves or optimization,
+publish a manuscript, modify the existing Zenodo deposit, or create a new DOI.
+The next archive's Data9 file is prepared and checksum-bound; the earlier
+published archive remains version 1.0.0. Original code is MIT, and original
+data/documentation are CC BY 4.0 under the existing author authorization.
+
+---
+
 # Public code synchronization — 2026-11-02
 
 The Scientific Reports addendum supplies subsequent research drivers, exact

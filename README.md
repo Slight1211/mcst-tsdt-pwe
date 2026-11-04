@@ -1,12 +1,30 @@
 # MCST–TSDT PWE source code
 
-Research code for flexural-wave dispersion in a periodic steel–epoxy plate, using modified couple-stress theory (MCST), third-order shear deformation theory (TSDT), and a plane-wave expansion (PWE). The repository also includes FSDT comparisons, circular-inclusion parameter scans, local band-edge prediction, physical displacement-field overlap, and gradient-based optimization of a nodal inclusion boundary.
+Research code for flexural-wave dispersion in periodic composite microplates, illustrated with a steel–epoxy example, using modified couple-stress theory (MCST), third-order shear deformation theory (TSDT), and a plane-wave expansion (PWE). The repository also includes FSDT comparisons, circular-inclusion parameter scans, local band-edge prediction, physical displacement-field overlap, and gradient-based optimization of a nodal inclusion boundary.
 
 The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
 
+## Uniform fixed-area design update — 4 November 2026
+
+The newest numerical-source addendum is
+[`reproducibility/scientific_reports_20261104`](reproducibility/scientific_reports_20261104/README.md).
+It supplies the exact sources for the common **b = 0.24, N = 15,
+153-point, two-start** protocol at material lengths 0, 0.5, 1, 2 and 5 µm,
+the fixed-geometry N = 21 checks, and geometry-bound solid comparisons.
+The paper's v62 changes are editorial; the numerical Data 9 package is unchanged
+from the checked v61 release.
+
+The addendum provides a standard-library saved-data verifier and an isolated
+workspace bootstrap. The full **Supplementary_Data_9_uniform_b024_v61.zip**
+is prepared for Zenodo version 1.1.0; it is not included in version 1.0.0
+or stored as a large Git blob. Its SHA256 is
+`79b8cca7dad260cd84be9bcb752221ec83fc79c3b3d80a5c965a6fae57dad8d0`.
+The published DOI below still identifies the immutable earlier archive.
+No new Zenodo record or DOI is claimed by this Git update.
+
 ## Scientific Reports update — 2 November 2026
 
-The latest research-code addendum is in
+The earlier research-code addendum is in
 [`reproducibility/scientific_reports_20261102`](reproducibility/scientific_reports_20261102/README.md).
 It adds the subsequent length-scale optimization, N=21 reoptimization,
 selected-shape three-dimensional comparisons, classical free-surface benchmark,

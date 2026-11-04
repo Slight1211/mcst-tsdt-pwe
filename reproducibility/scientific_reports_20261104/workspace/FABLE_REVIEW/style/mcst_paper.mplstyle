@@ -1,0 +1,53 @@
+# mcst_paper.mplstyle — Scientific Reports / Nature-portfolio figure style
+# Usage: plt.style.use("mcst_paper.mplstyle")
+# Widths: single column 89 mm (3.50 in), double column 183 mm (7.20 in). Max height 247 mm.
+
+font.family         : sans-serif
+font.sans-serif     : Arial, Helvetica, Liberation Sans, DejaVu Sans
+mathtext.fontset    : dejavusans
+font.size           : 8
+axes.labelsize      : 8
+axes.titlesize      : 8
+xtick.labelsize     : 7
+ytick.labelsize     : 7
+legend.fontsize     : 7
+legend.title_fontsize : 7
+
+# Axes: open frame (no top/right), thin lines, no grid by default
+axes.spines.top     : False
+axes.spines.right   : False
+axes.linewidth      : 0.6
+axes.edgecolor      : 0.25
+axes.labelcolor     : 0.1
+axes.titleweight    : normal
+axes.titlelocation  : left
+axes.grid           : False
+axes.axisbelow      : True
+axes.prop_cycle     : cycler('color', ['0072B2', 'D55E00', '009E73', 'CC79A7', '56B4E9', 'E69F00'])
+
+xtick.direction     : out
+ytick.direction     : out
+xtick.major.size    : 2.5
+ytick.major.size    : 2.5
+xtick.major.width   : 0.6
+ytick.major.width   : 0.6
+xtick.minor.size    : 1.5
+ytick.minor.size    : 1.5
+xtick.color         : 0.25
+ytick.color         : 0.25
+
+lines.linewidth     : 1.2
+lines.markersize    : 4
+lines.markeredgewidth : 0.8
+
+legend.frameon      : False
+legend.handlelength : 1.8
+legend.borderaxespad : 0.2
+legend.labelspacing : 0.3
+
+figure.dpi          : 150
+savefig.dpi         : 600
+savefig.bbox        : tight
+savefig.pad_inches  : 0.02
+pdf.fonttype        : 42
+ps.fonttype         : 42

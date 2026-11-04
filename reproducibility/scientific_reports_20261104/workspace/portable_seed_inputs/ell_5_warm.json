@@ -1,0 +1,11 @@
+{
+  "design": [
+    -0.001852502392682997,
+    0.0022908332808045536,
+    0.017430934955083608,
+    0.02367508082895523,
+    0.027192656345854594,
+    0.025640490330882153
+  ],
+  "semantics": "Initial coordinates for a b=0.24 run; no historical optimization result is included."
+}
