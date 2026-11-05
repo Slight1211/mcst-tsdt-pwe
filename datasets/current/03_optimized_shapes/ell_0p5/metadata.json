@@ -1,0 +1,37 @@
+{
+  "ell_um": 0.5,
+  "bound": 0.24,
+  "N": 15,
+  "points": 153,
+  "J153_percent": 34.31172213068446,
+  "L": 1.2698593733624846,
+  "U": 1.7957995608538986,
+  "kL": [
+    3.141592653589793,
+    0.0
+  ],
+  "kU": [
+    0.0,
+    0.0
+  ],
+  "design": [
+    0.05089556964295238,
+    0.1419052781778025,
+    0.17046648092578526,
+    0.1806042568913422,
+    0.1758451098650482,
+    0.1582187715517016
+  ],
+  "max_abs_design": 0.1806042568913422,
+  "bound_active_variables": 0,
+  "radial_ratio": 1.471843279087423,
+  "projected_stationarity": 0.0002279174121175842,
+  "complementarity": 2.4758790374976924e-09,
+  "max_constraint_violation": 1.6826184889850992e-10,
+  "two_start_spread_pp": 1.641230795712545e-08,
+  "a_um": 75,
+  "h_um": 6,
+  "steel_area_fraction": 0.2827433388230814,
+  "selected_source_manifest": "05_validation/SHAPE_BOUND_SENSITIVITY_20261103/ell_0p5_b0p24_old_best/manifest.json",
+  "selected_source_manifest_sha256": "70bbfcc2b181a536d9362250870644df31279b92fc2050bfdca2569f86dcdd33"
+}

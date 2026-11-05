@@ -1,0 +1,11 @@
+﻿row,cell_1,cell_2,cell_3
+1,Quantity,"Lower edge, mode 4","Upper edge, mode 5"
+2,$f$ (MHz),5.7364,7.6034
+3,$R_{\mc}=S_\ell$,0.0930,0.0738
+4,$R_{\rm sh}$,0.1343,0.1468
+5,$\kappa_{-1}$,0.0088,0.0088
+6,$\kappa_3$,0.7729,0.7795
+7,$\eta_3$,0.0207,0.0248
+8,$S_h=\kappa_3-\kappa_{-1}-\eta_3$,0.7434,0.7459
+9,$\partial_{\ln\ell}J_{45}(X)$,\multicolumn{2}{c}{$-1.885$},
+10,$\partial_{\ln h}J_{45}(X)$,\multicolumn{2}{c}{$+0.243$},

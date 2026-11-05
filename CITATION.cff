@@ -1,0 +1,49 @@
+# Metadata for the data-v1.1.0 release; the earlier Zenodo DOI is distinct.
+cff-version: 1.2.0
+type: dataset
+message: >-
+  If you use this collection, cite this version and its release URL.
+  The earlier Zenodo DOI identifies the historical 1.0.0 archive and is not
+  the DOI of this collection.
+title: >-
+  Data and code for size-dependent flexural band gaps and fixed-area shape
+  design of periodic composite microplates
+version: 1.1.0
+authors:
+  - family-names: Chen
+    given-names: Xin
+    affiliation: Department of Bioresource Engineering, McGill University
+  - family-names: Cai
+    given-names: Jun
+    affiliation: Department of Bioresource Engineering, McGill University
+  - family-names: Kalamkarov
+    given-names: Alex
+    affiliation: >-
+      Department of Bioresource Engineering, McGill University;
+      Department of Mechanical Engineering, Dalhousie University
+  - family-names: Akbarzadeh
+    given-names: Abdolhamid
+    affiliation: >-
+      Department of Bioresource Engineering, McGill University;
+      Department of Mechanical Engineering, McGill University
+url: https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0
+repository-code: https://github.com/Slight1211/mcst-tsdt-pwe
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: >-
+  Numerical data and computational sources for flexural-wave spectra,
+  modal sensitivities, fixed-area inclusion-boundary optimization and
+  selected three-dimensional comparisons in periodic composite microplates.
+  The collection includes figure and table data, five optimized interfaces
+  at prescribed epoxy material lengths, source records, file checksums and
+  reproduction tools. Data, figures and documentation use CC BY 4.0;
+  original executable source uses MIT, as detailed in LICENSES.md.
+keywords:
+  - phononic crystals
+  - modified couple stress theory
+  - plane wave expansion
+  - flexural band gaps
+  - modal sensitivity
+  - shape optimization
+  - microplates

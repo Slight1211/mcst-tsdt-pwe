@@ -1,0 +1,14 @@
+﻿row,cell_1,cell_2,cell_3,cell_4,cell_5
+1,\multicolumn{5}{l}{(a) Solid--solid comparison: $1-\mathrm{MAC}$},,,,
+2,Case,Mesh pair,Branch 4,Branch 5,$\Delta_{\max}$
+3,Large cell,M1L4/M1L6,$3.99\times10^{-8}$,$3.96\times10^{-8}$,$3.9\times10^{-9}$
+4,Small size,M2L4/M1L6,$6.19\times10^{-7}$,$2.02\times10^{-7}$,$5.43\times10^{-8}$
+5,Thick plate,M2L4/M1L6,$6.598\times10^{-6}$,$8.507\times10^{-6}$,$2.17\times10^{-6}$
+6,\multicolumn{5}{l}{(b) PWE--solid comparison: MAC},,,,
+7,"$(a,h)/\mu\mathrm m$",Plate model,Branch 4,Branch 5,$\Delta_{\max}$
+8,"$(500,20)$",FSDT,0.999970,0.999946,$2.92\times10^{-6}$
+9,,TSDT,0.999973,0.999945,$3.31\times10^{-6}$
+10,"$(40,3.2)$",FSDT,0.999933,0.999855,$2.75\times10^{-5}$
+11,,TSDT,0.999883,0.999245,$1.17\times10^{-4}$
+12,"$(75,24)$",FSDT,0.998600,0.998623,$2.76\times10^{-4}$
+13,,TSDT,0.997744,0.995831,$3.16\times10^{-4}$

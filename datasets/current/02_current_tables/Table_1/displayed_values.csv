@@ -1,0 +1,10 @@
+﻿quantity,mode4,mode5,mode_pair,unit
+frequency,5.7364,7.6034,,MHz
+R_mc_equals_S_ell,0.0930,0.0738,,dimensionless
+R_sh,0.1343,0.1468,,dimensionless
+kappa_minus1,0.0088,0.0088,,dimensionless
+kappa_3,0.7729,0.7795,,dimensionless
+eta_3,0.0207,0.0248,,dimensionless
+S_h,0.7434,0.7459,,dimensionless
+dJ_dln_ell,,,-1.885,percentage points per unit ln(parameter)
+dJ_dln_h,,,+0.243,percentage points per unit ln(parameter)

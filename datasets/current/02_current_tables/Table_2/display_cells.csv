@@ -1,0 +1,6 @@
+﻿row,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7
+1,$\ell/(\mu\mathrm m)$,Model,Measure,Initial,Optimized,Gain,Points
+2,1,PWE $N=15$,$J_{45}$,27.99,33.22,5.23,45
+3,1,3D M2L4,$J_{\Gamma XM}$,28.16,33.24,5.08,3
+4,2,PWE $N=15$,$J_{45}$,24.93,27.05,2.12,45
+5,2,3D M2L4,$J_{\Gamma XM}$,25.82,28.98,3.16,3

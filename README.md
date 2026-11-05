@@ -4,9 +4,31 @@ Research code for flexural-wave dispersion in periodic composite microplates, il
 
 The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
 
-## Uniform fixed-area design update — 4 November 2026
+## Organized dataset — 5 November 2026
 
-The newest numerical-source addendum is
+The current dataset is available as one organized download in
+[release data-v1.1.0](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0).
+Start with the [current dataset guide](datasets/current/README.md),
+[中文说明](datasets/current/README_ZH.md), or the
+[figure/table map](datasets/current/06_provenance/FIGURE_TABLE_MAP.csv).
+
+The complete package groups current figures, tables, five optimized interfaces,
+reproduction sources, original calculation records and provenance. It includes
+the uniform **b=0.24, N=15, 153-point** five-state data and current sensitivity
+and plotting inputs. Earlier numerical files are retained and mapped separately
+from current display results; nine editorial/task reports are omitted. Original
+scientific file bytes are unchanged, and no new solver runs were performed.
+Four original Table S5(a) MAC records are still absent; their rounded displayed
+values and expected source identities are explicitly documented.
+
+The ZIP is a release attachment rather than a large Git blob. The earlier Zenodo
+DOI remains the immutable 1.0.0 archive; this GitHub release does not assign a new
+DOI. The sections below describe the earlier source releases and their status
+at the dates shown.
+
+## Historical source update — 4 November 2026
+
+The November 4 numerical-source addendum is
 [`reproducibility/scientific_reports_20261104`](reproducibility/scientific_reports_20261104/README.md).
 It supplies the exact sources for the common **b = 0.24, N = 15,
 153-point, two-start** protocol at material lengths 0, 0.5, 1, 2 and 5 µm,

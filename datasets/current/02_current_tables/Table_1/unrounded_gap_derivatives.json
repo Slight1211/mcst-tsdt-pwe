@@ -1,0 +1,32 @@
+{
+  "scope": {
+    "a_um": 75,
+    "h_um": 6,
+    "r_over_a": 0.3,
+    "ell_epoxy_um": 1,
+    "ell_steel_um": 0,
+    "N": 15,
+    "k": "fixed X",
+    "bands": [
+      4,
+      5
+    ],
+    "fractional_perturbations": [
+      -0.03,
+      -0.01,
+      0.01,
+      0.03
+    ],
+    "total_modal_comparisons": 16
+  },
+  "gap_derivatives": {
+    "ell": {
+      "dJ_dlnp_pp": -1.885420597536015,
+      "d_absolute_width_dlnp_MHz": 0.027438007633138417
+    },
+    "h": {
+      "dJ_dlnp_pp": 0.242734624556125,
+      "d_absolute_width_dlnp_MHz": 1.4067176010546012
+    }
+  }
+}

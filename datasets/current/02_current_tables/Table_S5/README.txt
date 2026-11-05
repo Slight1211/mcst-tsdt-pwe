@@ -1,0 +1,2 @@
+Current table values parsed from the checked article. displayed_values.csv has normalized numeric fields; display_cells.csv retains exact table cells and symbols. These files reproduce reported precision, not unrounded solver values.
+The solid-solid rows are reported-value transcriptions. Complete unrounded source files for every solid-solid sampling comparison were not located; these transcriptions are not a new independent recalculation.

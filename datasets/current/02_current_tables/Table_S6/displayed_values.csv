@@ -1,0 +1,11 @@
+﻿ell_um,quantity,coverage,comparator,value,unit
+1,Maximum M3L4--M2L4 change,"Optimized, Gamma,X,M",=,0.119,percent
+1,Maximum M2L6--M2L4 change,"Optimized, X",=,0.0322,percent
+1,Maximum 24/32-pair change,"Optimized, X",<,1e-9,percent
+1,Maximum N=15--M2L4 discrepancy,"Optimized, Gamma,X,M",=,1.927,percent
+1,Minimum field-subspace projection,"Initial and optimized, Gamma,X,M",=,0.9999,dimensionless
+2,Maximum M3L4--M2L4 change,"Optimized, Gamma,X,M",=,0.0371,percent
+2,Maximum M2L6--M2L4 change,"Optimized, Gamma,X",=,0.0257,percent
+2,Maximum 24/32-pair change,"Optimized, X",<,1e-9,percent
+2,Maximum N=15--M2L4 discrepancy,"Optimized, Gamma,X,M",=,2.052,percent
+2,Minimum field-subspace projection,"Initial and optimized, Gamma,X,M",=,0.9991,dimensionless

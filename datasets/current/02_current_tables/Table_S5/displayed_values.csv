@@ -1,0 +1,10 @@
+﻿comparison,case,models,metric,branch4,branch5,sampling_change_max
+solid-solid,Large cell,M1L4/M1L6,1-MAC,3.99e-8,3.96e-8,3.9e-9
+solid-solid,Small size,M2L4/M1L6,1-MAC,6.19e-7,2.02e-7,5.43e-8
+solid-solid,Thick plate,M2L4/M1L6,1-MAC,6.598e-6,8.507e-6,2.17e-6
+PWE-solid,"(500,20)",FSDT,MAC,0.999970,0.999946,2.92e-6
+PWE-solid,"(500,20)",TSDT,MAC,0.999973,0.999945,3.31e-6
+PWE-solid,"(40,3.2)",FSDT,MAC,0.999933,0.999855,2.75e-5
+PWE-solid,"(40,3.2)",TSDT,MAC,0.999883,0.999245,1.17e-4
+PWE-solid,"(75,24)",FSDT,MAC,0.998600,0.998623,2.76e-4
+PWE-solid,"(75,24)",TSDT,MAC,0.997744,0.995831,3.16e-4

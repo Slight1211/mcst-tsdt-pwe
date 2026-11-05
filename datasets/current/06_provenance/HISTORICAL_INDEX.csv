@@ -1,0 +1,7 @@
+﻿category,location,note
+Earlier design protocols,05_source_records/Data6/,Earlier five-state searches; use 03_optimized_shapes for the current common b=0.24 designs.
+Classical-limit multistart/order study,05_source_records/Data7/,Historical ell=0 N15/N21 design comparisons; not the current five-state optimization protocol.
+Endpoint cross-evaluation,05_source_records/Data8/,Historical evaluation of one endpoint shape at another material length.
+Fixed-shape transfer and earlier solid checks,05_source_records/Data2/;05_source_records/Data3/;05_source_records/Data4/;05_source_records/Data5/,Mixed current supporting and historical records; use FIGURE_TABLE_MAP.csv to identify current displays.
+Uniform-design supplementary checks,05_source_records/Data9/,Contains current optimization records plus retained fixed-geometry N21 and cross-evaluation arrays. Current Table2 uses PWE N15 and 3D M2L4 rows only.
+Earlier fitted second-order predictions,04_reproduction/original_code/research/,Historical sources retained with the original code snapshot; not the current first-order sensitivity validation.

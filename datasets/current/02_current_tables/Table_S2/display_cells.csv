@@ -1,0 +1,4 @@
+﻿row,cell_1,cell_2,cell_3,cell_4
+1,Hexahedra,Maximum $e_f$,$E_{\Delta\ell}$,Maximum $e_c$ (\%)
+2,64,$4.46\times10^{-7}$,$1.22\times10^{-6}$,0.0614
+3,216,$8.82\times10^{-8}$,$2.41\times10^{-7}$,0.0273

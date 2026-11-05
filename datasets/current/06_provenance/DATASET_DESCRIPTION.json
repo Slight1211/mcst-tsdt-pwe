@@ -1,0 +1,53 @@
+{
+  "dataset_version": "1.1.0",
+  "manuscript_source_revision": "v76",
+  "source_archives": [
+    {
+      "name": "Supplementary_Data_v19.zip",
+      "sha256": "3d88c5882cd2e12cc5e824caf96e56f9b3ea19341d3c8ba3f2b68a52c21b269f",
+      "role": "Data1-8"
+    },
+    {
+      "name": "Supplementary_Data_9_design_focus_v75.zip",
+      "sha256": "34dc0ffb7d54390f85c10d864e8b58ed3463f1d9cad6dab92b3b1012e54f98da",
+      "role": "Data9"
+    },
+    {
+      "name": "github_commit_e0a2184.zip",
+      "sha256": "ca4de3b26d9ebd0526a1101fbebcdd6d7f6f9262b84664e1c963c0d5035ab8c1",
+      "role": "public code snapshot",
+      "commit": "e0a2184c59c62583ce448076903f14f69fd21877"
+    }
+  ],
+  "current_figures": 9,
+  "current_tables": 9,
+  "material_lengths_um": [
+    0,
+    0.5,
+    1,
+    2,
+    5
+  ],
+  "current_design_protocol": {
+    "N": 15,
+    "b": 0.24,
+    "sampled_wavevectors": 153,
+    "a_um": 75,
+    "h_um": 6
+  },
+  "original_numerical_bytes_changed": false,
+  "excluded_editorial_members": 9,
+  "missing_original_records": 4,
+  "new_eigensolves": 0,
+  "new_optimizations": 0,
+  "new_COMSOL_runs": 0,
+  "historical_DOI": "10.5281/zenodo.23888401",
+  "new_DOI": null,
+  "release_url": "https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0",
+  "authors": [
+    "Xin Chen",
+    "Jun Cai",
+    "Alex Kalamkarov",
+    "Abdolhamid Akbarzadeh"
+  ]
+}

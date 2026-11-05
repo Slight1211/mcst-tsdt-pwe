@@ -1,0 +1,5 @@
+﻿ell_um,model,measure,initial_gap_percent,optimized_gap_percent,gain_pp,points
+1,PWE N=15,J_{45},27.99,33.22,5.23,45
+1,3D M2L4,J_{Gamma XM},28.16,33.24,5.08,3
+2,PWE N=15,J_{45},24.93,27.05,2.12,45
+2,3D M2L4,J_{Gamma XM},25.82,28.98,3.16,3

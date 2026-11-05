@@ -1,0 +1,1 @@
+Current table values parsed from the checked article. displayed_values.csv has normalized numeric fields; display_cells.csv retains exact table cells and symbols. These files reproduce reported precision, not unrounded solver values.

@@ -1,0 +1,12 @@
+﻿row,cell_1,cell_2,cell_3,cell_4
+1,$\ell/(\mu\mathrm m)$,Quantity,Coverage,Value
+2,1,Maximum M3L4--M2L4 change,"Optimized, $\Gamma,X,M$",0.119
+3,1,Maximum M2L6--M2L4 change,"Optimized, $X$",0.0322
+4,1,Maximum 24/32-pair change,"Optimized, $X$",$<10^{-9}$
+5,1,Maximum $N=15$--M2L4 discrepancy,"Optimized, $\Gamma,X,M$",1.927
+6,1,Minimum field-subspace projection,"Initial and optimized, $\Gamma,X,M$",0.9999
+7,2,Maximum M3L4--M2L4 change,"Optimized, $\Gamma,X,M$",0.0371
+8,2,Maximum M2L6--M2L4 change,"Optimized, $\Gamma,X$",0.0257
+9,2,Maximum 24/32-pair change,"Optimized, $X$",$<10^{-9}$
+10,2,Maximum $N=15$--M2L4 discrepancy,"Optimized, $\Gamma,X,M$",2.052
+11,2,Minimum field-subspace projection,"Initial and optimized, $\Gamma,X,M$",0.9991
