@@ -4,27 +4,28 @@ Research code for flexural-wave dispersion in periodic composite microplates, il
 
 The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
 
-## Organized dataset — 5 November 2026
+## Current dataset 1.1.1 — 5 November 2026
 
-The current dataset is available as one organized download in
-[release data-v1.1.0](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0).
-Start with the [current dataset guide](datasets/current/README.md),
-[中文说明](datasets/current/README_ZH.md), or the
+[Download the complete dataset](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1)
+or browse the [dataset guide](datasets/current/README.md),
+[中文说明](datasets/current/README_ZH.md), and
 [figure/table map](datasets/current/06_provenance/FIGURE_TABLE_MAP.csv).
 
-The complete package groups current figures, tables, five optimized interfaces,
-reproduction sources, original calculation records and provenance. It includes
-the uniform **b=0.24, N=15, 153-point** five-state data and current sensitivity
-and plotting inputs. Earlier numerical files are retained and mapped separately
-from current display results; nine editorial/task reports are omitted. Original
-scientific file bytes are unchanged, and no new solver runs were performed.
-Four original Table S5(a) MAC records are still absent; their rounded displayed
-values and expected source identities are explicitly documented.
+The package groups nine figures, nine tables, five optimized interfaces,
+reproduction code and supporting calculation records. The five designs share
+**b=0.24, N=15 and 153 evaluation points**; individual comparisons retain their
+stated sampling protocols.
 
-The ZIP is a release attachment rather than a large Git blob. The earlier Zenodo
-DOI remains the immutable 1.0.0 archive; this GitHub release does not assign a new
-DOI. The sections below describe the earlier source releases and their status
-at the dates shown.
+Version 1.1.1 adds the four original large-cell and small-cell MAC files for
+Table S5(a). All six records are now provided with a numerical comparison and
+a portable checker. The nine displayed values agree with the original records;
+no table values or numerical solutions have changed. English and Chinese guides
+describe how to find, verify and reproduce the results.
+
+[Dataset 1.1.0](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0)
+and the earlier Zenodo 1.0.0 archive remain available. The Zenodo DOI identifies
+that earlier archive; this GitHub release does not assign a new DOI.
+The sections below describe historical source releases.
 
 ## Historical source update — 4 November 2026
 

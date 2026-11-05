@@ -1,4 +1,4 @@
-# Metadata for the data-v1.1.0 release; the earlier Zenodo DOI is distinct.
+# Metadata for the data-v1.1.1 release; the earlier Zenodo DOI is distinct.
 cff-version: 1.2.0
 type: dataset
 message: >-
@@ -8,7 +8,7 @@ message: >-
 title: >-
   Data and code for size-dependent flexural band gaps and fixed-area shape
   design of periodic composite microplates
-version: 1.1.0
+version: 1.1.1
 authors:
   - family-names: Chen
     given-names: Xin
@@ -26,7 +26,7 @@ authors:
     affiliation: >-
       Department of Bioresource Engineering, McGill University;
       Department of Mechanical Engineering, McGill University
-url: https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0
+url: https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1
 repository-code: https://github.com/Slight1211/mcst-tsdt-pwe
 license:
   - CC-BY-4.0

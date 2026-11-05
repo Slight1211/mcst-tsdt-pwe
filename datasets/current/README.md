@@ -1,18 +1,19 @@
 # Current organized dataset
 
-[Download the complete dataset](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0).
+[Download dataset 1.1.1](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1).
 
-This repository directory is a compact browsing index: current table CSVs,
-five optimized boundaries/spectra, and processing sources. The complete release
-ZIP additionally contains all nine figure/data directories, original scientific
-records, source-path mappings, the full public code snapshot, and file checksums.
-Run the integrity checker in the unpacked release, not in this compact index.
+This directory provides a compact browsing index of the current table CSVs,
+five optimized boundaries and spectra, MAC records, and processing sources.
+The complete ZIP also contains all nine figure/data directories, original
+calculation records, the public code snapshot, source mappings and checksums.
+Run the verification tools from the unpacked release.
 
 - [English guide](README_EN.md)
-- [中文说明](README_ZH.md)
+- [Chinese guide](README_ZH.md)
 - [Figure and table map](06_provenance/FIGURE_TABLE_MAP.csv)
-- [Source coverage](06_provenance/MISSING_SOURCE_RECORDS.csv)
+- [Table S5(a) original MAC records](02_current_tables/Table_S5/solid_solid_mac/)
+- [Table S5(a) numerical recheck](02_current_tables/Table_S5/solid_solid_mac_recheck.csv)
+- [Release notes](RELEASE_NOTES.md)
 
-Paths in the complete dataset guide refer to the release ZIP. Four Table S5(a)
-full-precision source records are not included; their displayed table values are
-retained and explicitly labelled as rounded transcriptions.
+All six original solid-solid MAC records are included. The nine displayed
+Table S5(a) values agree with these records at the table's rounding precision.

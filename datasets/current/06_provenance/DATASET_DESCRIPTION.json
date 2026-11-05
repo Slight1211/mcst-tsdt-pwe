@@ -1,5 +1,5 @@
 {
-  "dataset_version": "1.1.0",
+  "dataset_version": "1.1.1",
   "manuscript_source_revision": "v76",
   "source_archives": [
     {
@@ -17,6 +17,16 @@
       "sha256": "ca4de3b26d9ebd0526a1101fbebcdd6d7f6f9262b84664e1c963c0d5035ab8c1",
       "role": "public code snapshot",
       "commit": "e0a2184c59c62583ce448076903f14f69fd21877"
+    },
+    {
+      "name": "current_data_011.zip",
+      "sha256": "ac3aa0c464dae60adc225c20b20695c59a75fdb982b00677967f61a9d09b15d0",
+      "role": "recovered original MAC records"
+    },
+    {
+      "name": "current_data_002.zip",
+      "sha256": "657a556a0819e47c12ca823151751bf97d12ee19f18405b55697976633033d48",
+      "role": "recovered original MAC records"
     }
   ],
   "current_figures": 9,
@@ -37,17 +47,22 @@
   },
   "original_numerical_bytes_changed": false,
   "excluded_editorial_members": 9,
-  "missing_original_records": 4,
+  "missing_original_records": 0,
   "new_eigensolves": 0,
   "new_optimizations": 0,
   "new_COMSOL_runs": 0,
   "historical_DOI": "10.5281/zenodo.23888401",
   "new_DOI": null,
-  "release_url": "https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0",
+  "release_url": "https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1",
   "authors": [
     "Xin Chen",
     "Jun Cai",
     "Alex Kalamkarov",
     "Abdolhamid Akbarzadeh"
-  ]
+  ],
+  "recovered_MAC_records": 6,
+  "newly_added_original_MAC_records": 4,
+  "raw_displacement_MAC_recomputed": false,
+  "previous_release": "data-v1.1.0",
+  "previous_archive_sha256": "91113968c88700dde0771547f6314a611d8dceef83033832e6c81656cf3ed268"
 }

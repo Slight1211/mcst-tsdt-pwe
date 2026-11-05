@@ -22,3 +22,5 @@ Saved CSV/JSON data can be read directly without a proprietary solver. New PWE
 calculations require the code's NumPy/SciPy dependencies. New solid calculations
 require a separately installed and licensed COMSOL environment. No COMSOL program,
 license, or model checkpoint is distributed here.
+
+For the recovered Table S5(a) records, run python 04_reproduction/verify_mac_records.py --root . from the complete dataset root. This checks original file hashes and reported table arithmetic without launching a solver.

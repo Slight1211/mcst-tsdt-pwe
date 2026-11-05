@@ -1,23 +1,28 @@
-# Organized scientific dataset 1.1.0
+# Scientific dataset 1.1.1
 
-One ZIP contains the current figure and table data, five separately optimized
-interfaces, reproduction sources and earlier supporting calculations. Its six
-top-level directories are organized by use rather than manuscript revision.
+[Download this release](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1)
 
-- 6 main figures and 3 supplementary figures with available source data.
-- 2 main tables and 7 supplementary tables, with displayed rounding identified.
-- Five material lengths: 0, 0.5, 1, 2 and 5 micrometres, all using b=0.24 and N=15.
-- Original source bytes preserved, historical calculations indexed separately,
-  and nine editorial/task reports excluded.
-- English/Chinese guides, source-path mappings and complete SHA256 checksums.
+This release adds the four original large-cell and small-cell solid–solid MAC
+records for Table S5(a). All six sampling records, including the two thick-plate
+records, are now grouped beside the table, with a CSV comparison against its
+displayed values and a file-identity manifest.
 
-The current exported sensitivities and five design gaps were checked against
-saved records. No new PWE/COMSOL calculation was run. Four full-precision
-solid–solid MAC records for Table S5(a) remain unavailable; the displayed values
-and expected original source identities are supplied.
+The archive retains the nine figures, nine tables, five optimized interfaces,
+supporting calculations and reproduction code. Numerical source files retain
+their original contents; table exports remain labelled with their displayed
+rounding. The English and Chinese guides have been shortened around finding
+data, checking files and reproducing calculations.
 
-Current collection authors: Xin Chen, Jun Cai, Alex Kalamkarov, Abdolhamid Akbarzadeh.
-Original data/figures/documentation: CC BY 4.0. Original executable code: MIT.
-Earlier notices and citations are retained. Manuscript PDFs and internal reviewer
-reports are not included. The earlier Zenodo DOI 10.5281/zenodo.23888401 remains
-version 1.0.0 and is not the DOI for this release.
+This update uses saved results; it does not add PWE or COMSOL solves.
+[Version 1.1.0](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0)
+remains available.
+
+Authors: Xin Chen, Jun Cai, Alex Kalamkarov, Abdolhamid Akbarzadeh.
+Original data, figures and documentation: CC BY 4.0. Original executable code:
+MIT. Earlier attribution and licence notices are retained.
+
+## 中文说明
+
+本版补入表 S5(a) 大、小单胞算例的四份实体–实体 MAC 原始记录。六份采样记录（含厚板的两份）已集中放在对应表格目录，并附显示值逐项核对 CSV 及来源哈希清单。
+
+数据包保留九张图、九张表、五组优化界面、支撑计算和复现代码。原数值文件内容保持不变，表格导出仍注明显示舍入精度。中英文说明已精简，按查找数据、校验文件和复现计算组织。本次使用已有计算记录，没有新增 PWE 或 COMSOL 求解；1.1.0 版继续保留。
