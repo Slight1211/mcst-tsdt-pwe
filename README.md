@@ -1,164 +1,55 @@
-# MCST–TSDT PWE source code
+# Composite microplate band gaps: data and code
 
-Research code for flexural-wave dispersion in periodic composite microplates, illustrated with a steel–epoxy example, using modified couple-stress theory (MCST), third-order shear deformation theory (TSDT), and a plane-wave expansion (PWE). The repository also includes FSDT comparisons, circular-inclusion parameter scans, local band-edge prediction, physical displacement-field overlap, and gradient-based optimization of a nodal inclusion boundary.
+[Dataset 1.1.2](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.2)
+| [English guide](datasets/current/README_EN.md)
+| [中文说明](datasets/current/README_ZH.md)
 
-The initial release contained source code only. Selected supporting numerical results were added in [`data/wave_motion_20261009_v1`](data/wave_motion_20261009_v1/README.md). The [15 October reproducibility addendum](reproducibility/wave_motion_20261015/README.md) adds portable saved-data postprocessing and homogeneous-solid validation results. Manuscripts, publication PDFs, COMSOL checkpoints, commercial software, third-party reference code, and machine-specific preferences are not included. The folder name `mcst_piezo_tsd_plate` in the original project is historical; the study represented here uses a two-phase steel–epoxy plate.
+Data and computational sources for size-dependent flexural spectra, modal
+sensitivities and fixed-area interface design in periodic composite microplates.
+The plate model combines modified couple stress theory (MCST), Reddy third-order
+kinematics and inverse-factorized plane-wave discretization. Steel-epoxy cells
+provide the numerical examples, with selected three-dimensional comparisons.
 
-## Current dataset 1.1.1 — 5 November 2026
+## Dataset contents
 
-[Download the complete dataset](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.1)
-or browse the [dataset guide](datasets/current/README.md),
-[中文说明](datasets/current/README_ZH.md), and
-[figure/table map](datasets/current/06_provenance/FIGURE_TABLE_MAP.csv).
+The complete download contains six main figures, three supplementary figures,
+two main tables, seven supplementary tables, five optimized interfaces and their
+supporting records. Files are grouped by use:
 
-The package groups nine figures, nine tables, five optimized interfaces,
-reproduction code and supporting calculation records. The five designs share
-**b=0.24, N=15 and 153 evaluation points**; individual comparisons retain their
-stated sampling protocols.
+| Directory | Contents |
+|---|---|
+| `01_current_figures/` | Figures and plotting data |
+| `02_current_tables/` | Table CSVs and supporting records |
+| `03_optimized_shapes/` | Interface vertices, spectra and optimization settings |
+| `04_reproduction/` | Verification, processing and solver code |
+| `05_source_records/` | Original calculation records |
+| `06_provenance/` | Figure/table mappings, source identities and checksums |
 
-Version 1.1.1 adds the four original large-cell and small-cell MAC files for
-Table S5(a). All six records are now provided with a numerical comparison and
-a portable checker. The nine displayed values agree with the original records;
-no table values or numerical solutions have changed. English and Chinese guides
-describe how to find, verify and reproduce the results.
+The five designs use material lengths of 0, 0.5, 1, 2 and 5 micrometres,
+with b=0.24, N=15 and a 153-wavevector evaluation. Table 2 reports its stated
+45-point plate evaluation and Gamma, X, M solid comparison.
 
-[Dataset 1.1.0](https://github.com/Slight1211/mcst-tsdt-pwe/releases/tag/data-v1.1.0)
-and the earlier Zenodo 1.0.0 archive remain available. The Zenodo DOI identifies
-that earlier archive; this GitHub release does not assign a new DOI.
-The sections below describe historical source releases.
+The [repository index](datasets/current/README.md) provides table CSVs,
+optimized boundaries and spectra, six solid-solid MAC records, and processing
+sources. Use the complete release ZIP for all figure data and calculation records.
 
-## Historical source update — 4 November 2026
+## Verification and reproduction
 
-The November 4 numerical-source addendum is
-[`reproducibility/scientific_reports_20261104`](reproducibility/scientific_reports_20261104/README.md).
-It supplies the exact sources for the common **b = 0.24, N = 15,
-153-point, two-start** protocol at material lengths 0, 0.5, 1, 2 and 5 µm,
-the fixed-geometry N = 21 checks, and geometry-bound solid comparisons.
-The paper's v62 changes are editorial; the numerical Data 9 package is unchanged
-from the checked v61 release.
-
-The addendum provides a standard-library saved-data verifier and an isolated
-workspace bootstrap. The full **Supplementary_Data_9_uniform_b024_v61.zip**
-is prepared for Zenodo version 1.1.0; it is not included in version 1.0.0
-or stored as a large Git blob. Its SHA256 is
-`79b8cca7dad260cd84be9bcb752221ec83fc79c3b3d80a5c965a6fae57dad8d0`.
-The published DOI below still identifies the immutable earlier archive.
-No new Zenodo record or DOI is claimed by this Git update.
-
-## Scientific Reports update — 2 November 2026
-
-The earlier research-code addendum is in
-[`reproducibility/scientific_reports_20261102`](reproducibility/scientific_reports_20261102/README.md).
-It adds the subsequent length-scale optimization, N=21 reoptimization,
-selected-shape three-dimensional comparisons, classical free-surface benchmark,
-and saved-data verification sources. Its README distinguishes exact historical
-sources from portable saved-data tools and explains the required data layout.
-
-The numerical data and archived computational sources are published in Zenodo:
-**[10.5281/zenodo.23888401](https://doi.org/10.5281/zenodo.23888401)**
-(version 1.0.0). That immutable data release includes the original executed-source
-records and the earlier GitHub snapshot `6d51e70`; later GitHub tools have their own
-commit history. Large numerical outputs remain in Zenodo.
-
-Original source code is available under MIT; original data and documentation under
-CC BY 4.0. See [LICENSE](LICENSE) and [LICENSES.md](LICENSES.md). No commercial
-COMSOL software or licence is included.
-
-## Quick check
-
-Use Python 3.12 with the packages listed in `requirements.txt`. The versions are those installed in the original research environment, not a claim of compatibility with all package versions.
-
-```sh
-python -m pip install -r requirements.txt
-python checks/smoke_check.py
-python checks/smoke_check.py --kernel frozen
-python examples/circular_point.py
-```
-
-The smoke check parses the Python sources and runs small-matrix algebraic regressions. The example solves one wavevector with a small PWE basis. These are software checks, **not** the N=15/N=21 manuscript calculations or evidence of numerical convergence.
-
-## Code layout
-
-The original relative layout is retained because the research scripts use sibling imports:
+Unpack the complete dataset to a short path. From its root, run:
 
 ```text
-research/
-  msse_20260919/python/             analytical thickness operators and Fourier geometry
-  wavemotion_surface_20260920/
-    src/                          PWE assembly, nodal geometry and analytic sensitivities
-    run_*.py                      individual research workflows
-    plot_*.py, report_*.py         analysis and scientific plotting
-    runs/scale_addendum_20260927/
-      sources/                    frozen circular PWE kernels used by selected validations
-    joint_mesh_autoresearch/
-      src/                        3D mesh/field controllers and overlap utilities
-      experiments/                second-order prediction and PWE/3D displacement pairing
-comsol/                           Java model-building source
-checks/, examples/                lightweight public-release checks and example
+python 04_reproduction/verify_dataset.py --root .
+python 04_reproduction/verify_mac_records.py --root .
 ```
 
-Current nodal kernels and the frozen circular kernels are intentionally separate. `SOURCE_MANIFEST.json` records the SHA256 of the original and released files and identifies publication adaptations. Do not replace the frozen kernels with newer files when rerunning an audit that checks their hashes.
+The first command checks file integrity; the second also checks Table S5(a)
+against the saved MAC records. Both use Python's standard library.
+The [reproduction guide](datasets/current/04_reproduction/README.md) describes
+processing scripts, numerical dependencies and solver settings.
 
-## Gradient optimization
+## Citation and licences
 
-The nodal production workflow uses a 48-vertex C4v boundary, six fixed-area shape variables, analytic shape sensitivities, and epigraph SLSQP with active-wavevector enrichment. Its settings are N=15, a=75 µm, h=6 µm, steel inner scale 0, and epoxy inner scale 1 µm.
-
-From the repository root, use a **new output directory**:
-
-```sh
-python research/wavemotion_surface_20260920/run_node_gradient_process_20261004.py --out results/node_gradient_new
-python research/wavemotion_surface_20260920/plot_node_gradient_process_20261004.py --run results/node_gradient_new --output results/node_gradient_new/process
-```
-
-This is a substantial numerical calculation; it is not run by the smoke check. The result is a local optimum of the sampled flexural-band objective, not a global optimum or a full-polarization band-gap certificate. The plotting script writes `iteration_table.csv` in its run directory and exports PDF/PNG figures. Use a copy of an immutable run when preparing plots.
-
-## Other workflows and required data
-
-| Workflow | Source entry | Prerequisites |
-|---|---|---|
-| Circular PWE scans | `run_ratio75_thickness_pwe.py`, `run_ratio75_thickness_n21.py`, `run_scale_addendum_20260927.py` | Python dependencies; inspect the script's output and resume rules before running |
-| PWE path/IBZ checks | `run_pwe_path_convergence_dense_20260927.py`, `run_revision_ibz_*.py` | Some workflows consume earlier saved spectra/configuration |
-| Local second-order prediction | `joint_mesh_autoresearch/experiments/second_order_local_prediction_20261003/second_order.py` | Original prediction CSV/JSON inputs with matching scientific hashes |
-| Prospective thickness checks | `joint_mesh_autoresearch/experiments/second_order_h2_validation_20261003/recompute.py` | Frozen coefficients, baseline NPZ and prediction inputs |
-| Physical PWE/3D overlap | `joint_mesh_autoresearch/experiments/pwe_3d_mac_20261004/compute_v2.py` | Saved PWE eigenvectors and completed COMSOL field exports on both sampling grids |
-| Scientific plots | `plot_*.py`, `report_*.py`, `run_revision_edge_energy_map.py` | The CSV/NPZ/JSON inputs expected by each script |
-| 3D models and mesh comparisons | `comsol/*.java`, `joint_mesh_autoresearch/src/` | A licensed COMSOL installation, locally compiled Java classes and, for continuation scripts, the original completed checkpoints |
-
-Paths in the table are relative to `research/wavemotion_surface_20260920/` except `comsol/`. The selected public data collection is not a complete input tree for these historical workflows. Use the portable addendum for the explicitly mapped saved-data checks; do not interpret missing inputs as a successful reproduction. Publication-specific manuscript/PDF checks and dependencies on the original private Git history are separated from scientific-input checks in the public adaptations. See `PUBLIC_RELEASE_NOTES.md` and the source manifest.
-
-For data-dependent adapted experiments, `MCST_DATA_ROOT` points to a data tree laid out like `research/wavemotion_surface_20260920/`. The saved research kernels remain in this source repository. Inspect each experiment's command-line help and protocol before running; historical protocols describe the original experiment, not a new public execution.
-
-In the relevant experiment directory, the stages are:
-
-```sh
-# Local second-order prediction
-python second_order.py freeze
-python second_order.py evaluate
-python independent_audit.py
-python gen_fig_second_order.py
-
-# Thickness perturbation checks
-python recompute.py --stage freeze
-python recompute.py --stage compute
-python audit_v2.py
-python verify_saved.py
-
-# Physical PWE/3D overlap
-python compute_v2.py --stage freeze
-python compute_v2.py --stage compute
-python compute_v2.py --stage verify
-```
-
-The thickness checks require the original historical `coefficients_frozen.json` with SHA256 beginning `e633d4ef`. A coefficient file newly generated by the public prediction workflow has different provenance metadata and must not replace this locked historical input.
-
-COMSOL jobs must be run serially. Set `COMSOL_BIN` for your installation where supported. No installation, license, preferences or saved `.mph` models are redistributed. The Java files are source, not standalone executables. Archived continuation scripts need their original checkpoint/input tree; they are not independent model-building entry points. Never overwrite an existing run or launch a duplicate solver for a running manifest.
-
-Several auxiliary modules and import-helper scripts are retained to preserve the original dependency chain. Their presence does not mean all historical main programs are part of the manuscript or suitable default entry points. In particular, `run_convergence.py` contains an older acoustic pilot; do not run its main program as the dry-plate reproduction.
-
-The scientific plotting sources are provided, but the final manuscript's font-conversion and layout-audit pipeline is not redistributed. A plot generated here is not guaranteed to reproduce the final publication layout pixel for pixel.
-
-## Verification and licensing
-
-`PUBLIC_RELEASE_CHECKS.json` records the checks performed on the initial source release. The addendum README describes its separate saved-data checks. Full N=15/N=21 scans, optimization, COMSOL calculations and saved-data audits are **not rerun during packaging**. There is no continuous-error-bound claim from finite mesh differences.
-
-The original source code is licensed under MIT, and original data/documentation under CC BY 4.0, following the rights-holder authorization for the 2 November 2026 deposition. See `LICENSES.md` for scope. Historical release notes preserve the earlier unlicensed state. No third-party reference implementation or font files are included. The Zenodo record is a data/code citation; it is not a journal article DOI.
+Authors: Xin Chen, Jun Cai, Alex Kalamkarov and Abdolhamid Akbarzadeh.
+Use [CITATION.cff](CITATION.cff) to cite this dataset. Original data, figures
+and documentation use CC BY 4.0; original executable code uses MIT.
+See [licence details](datasets/current/LICENSES.md).

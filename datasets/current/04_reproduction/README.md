@@ -1,26 +1,26 @@
-# Reproduction entry points
+# Reproduction
 
-`verify_dataset.py` is self-contained and checks the complete packaged file inventory.
-It reads existing files and does not start PWE or COMSOL calculations.
+Run these commands from the complete, unpacked dataset:
 
-`original_code/` is the exact public code tree at commit
-e0a2184c59c62583ce448076903f14f69fd21877. Its requirements, copyright notices,
-and original instructions are retained. The scientific_reports_20261104 addendum
-contains the uniform b=0.24 optimizer, two initial coordinate sets for each material
-length, saved-data checks, and an isolated-workspace extraction helper.
+```text
+python 04_reproduction/verify_dataset.py --root .
+python 04_reproduction/verify_mac_records.py --root .
+```
 
-`current_sources/` contains exact plotting/derivation sources used to prepare the
-current figures and sensitivity values, plus the table-export source. These scripts
-retain their original project-relative paths and, in some cases, historical output
-guards. They are provenance sources rather than portable top-level launchers.
-Do not run them over the immutable dataset. Use the display map and source map to
-assemble their required inputs in a separate working directory. The table-export
-script reads the manuscript's TeX; the manuscript text is not part of this dataset.
-Its already exported CSV tables are in `02_current_tables/`.
+Both tools use Python's standard library. The first checks file hashes; the
+second also checks Table S5(a)'s values against the six saved MAC records.
 
-Saved CSV/JSON data can be read directly without a proprietary solver. New PWE
-calculations require the code's NumPy/SciPy dependencies. New solid calculations
-require a separately installed and licensed COMSOL environment. No COMSOL program,
-license, or model checkpoint is distributed here.
+`current_sources/` contains figure-processing, sensitivity and table-export
+scripts. Use `06_provenance/FIGURE_TABLE_MAP.csv` to locate their inputs and
+`06_provenance/SOURCE_MAP.csv` for original file locations. Assemble the mapped
+inputs in a separate working directory, respecting each script's relative paths.
+The table-export script reads manuscript TeX; exported CSVs are directly available
+in `02_current_tables/`.
 
-For the recovered Table S5(a) records, run python 04_reproduction/verify_mac_records.py --root . from the complete dataset root. This checks original file hashes and reported table arithmetic without launching a solver.
+`original_code/` contains the PWE and COMSOL drivers and their requirements.
+The `scientific_reports_20261104` directory provides the b=0.24 optimizer,
+two initial coordinate sets per material length and saved-data checks.
+
+Array processing uses NumPy and plotting uses Matplotlib; PWE solves also use
+SciPy. New solid-model calculations require a separately licensed COMSOL
+installation. Use the settings recorded with each calculation.
